@@ -7,36 +7,36 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a permit to install a hot tub in Des Moines?",
-    answer: "Yes, the City of Des Moines and most surrounding communities in Polk County require an electrical permit for hot tub installations. This ensures that the wiring meets safety codes and prevents fire or shock hazards. We handle the entire permitting and inspection process for you."
+    question: "How often should I pump my septic tank in Bismarck?",
+    answer: "Most experts and local health departments in Bismarck recommend pumping your septic tank every 3-5 years. However, this depends on your household size and the amount of wastewater generated. Regular pumping prevents solids from escaping into your drain field."
   },
   {
-    question: "How much does it cost to wire a hot tub in Des Moines?",
-    answer: "The cost typically ranges from $800 to $1,500 for a standard installation close to your electrical panel. If trenching is required or if your panel needs an upgrade, costs can be higher. We provide free, transparent estimates before starting any work."
+    question: "How much does septic pumping cost in Bismarck?",
+    answer: "A standard 1,000-gallon septic tank pumping in the Bismarck area typically costs between $350 and $550. Prices can vary based on the size of the tank, the distance of the house from our facility, and whether any digging is required to access the lids."
   },
   {
-    question: "Can I run a hot tub on a standard outlet?",
-    answer: "Most full-sized hot tubs require a dedicated 240V/50A or 60A hardwired connection. While some small 'plug-and-play' spas use a standard 120V outlet, most durable models need specialized wiring. Never use an extension cord for a hot tub."
+    question: "What are the signs that my septic tank is full?",
+    answer: "Common warning signs include slow-draining sinks or toilets, gurgling sounds in your plumbing, sewage odors near your tank or drain field, and unusually lush or green grass over the absorption area. If you experience these, call for an inspection immediately."
   },
   {
-    question: "Do I need to upgrade my electrical panel?",
-    answer: "It depends on your current service capacity and the requirements of your spa. Many older homes in Des Moines with 100-amp service may need an upgrade to handle the additional load safely. We will assess your panel during our initial consultation."
+    question: "Do I need to be home for the pumping service?",
+    answer: "No, you don't necessarily need to be home as long as we have clear access to your septic tank lids. We do recommend being available via phone in case we discover any issues during our inspection that require your attention."
   },
   {
-    question: "What is a spa disconnect and why do I need one?",
-    answer: "A spa disconnect (or emergency shut-off) is a safety switch located at least 5 feet from the water but within sight of the hot tub. It allows you to quickly cut power in an emergency. It is a mandatory requirement of the National Electrical Code."
+    question: "Where is my septic tank located?",
+    answer: "If you're unsure, we can help locate it using specialized electronic locators or by following the main sewer line out of your home. Having your property's as-built drawing from the Burleigh County health department also helps."
   },
   {
-    question: "How long does the installation take?",
-    answer: "Most hot tub wiring jobs in the Des Moines area can be completed in one day, usually between 4-8 hours. This includes running conduit, pulling wire, making connections, and labeling the panel."
+    question: "What shouldn't I flush down my septic system?",
+    answer: "Avoid flushing grease, oils, feminine hygiene products, 'flushable' wipes, chemicals, and excessive amounts of household cleaners. These can kill the beneficial bacteria in your tank or cause mechanical blockages."
   },
   {
-    question: "Why should I hire a licensed electrician instead of a handyman?",
-    answer: "Water and electricity are a dangerous mix. Incorrect grounding or bonding can lead to severe shock or electrocution. Our licensed Des Moines electricians ensure all bonding (equipotential bonding) is done correctly to NEC standards, guaranteeing your family's safety."
+    question: "Is septic tank cleaning different from pumping?",
+    answer: "Pumping primarily removes the liquids and floating solids. Cleaning involves a more thorough removal of the 'sludge' layer at the bottom of the tank and washing the interior walls and baffles to ensure everything is clear."
   },
   {
-    question: "Do you service all brands of hot tubs?",
-    answer: "Yes, we can provide the electrical hookup for all major brands including Jacuzzi, Sundance, Hot Spring, Bullfrog, Cal Spas, and Master Spas. We work with specialized swim spas as well."
+    question: "How can I make my septic system last longer?",
+    answer: "The best ways to extend its life are regular pumping (every 3-5 years), cleaning the effluent filter, conserving water, and avoiding driving heavy vehicles over the tank or drain field."
   }
 ];
 
@@ -47,17 +47,17 @@ const FAQ = () => {
         <div className="max-w-3xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-              Hot Tub Wiring FAQs
+              Bismarck Septic Pumping FAQs
             </h2>
             <p className="text-lg text-slate-600">
-              Common questions about hot tub & spa installation in Des Moines, IA.
+              Common questions about septic maintenance and cleaning in Bismarck, ND.
             </p>
           </div>
 
           <Accordion type="single" collapsible className="w-full">
             {faqs.map((faq, index) => (
               <AccordionItem key={index} value={`item-${index}`} className="border-b border-slate-200">
-                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-blue-600 py-4">
+                <AccordionTrigger className="text-left font-heading font-semibold text-slate-900 hover:text-emerald-600 py-4">
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-slate-600 pb-4 leading-relaxed">
@@ -73,3 +73,4 @@ const FAQ = () => {
 };
 
 export default FAQ;
+

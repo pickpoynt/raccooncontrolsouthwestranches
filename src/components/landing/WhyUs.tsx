@@ -1,43 +1,43 @@
-import { Shield, Zap, Clock, Home, Award, DollarSign } from "lucide-react";
+import { Shield, Truck, Clock, MapPin, Award, DollarSign } from "lucide-react";
 
 const reasons = [
   {
     icon: Shield,
-    title: "Licensed Electricians",
-    description: "Our team consists of fully licensed and insured master electricians in Iowa. We have specific training in aquatic electrical systems to ensure 100% code compliance."
+    title: "Licensed Experts",
+    description: "Our team consists of fully licensed and insured septic service professionals in North Dakota. We follow all environmental and safety protocols."
   },
   {
-    icon: Zap,
-    title: "Spa Specialists",
-    description: "Unlike general electricians, we specialize in hot tub and spa wiring. We understand the specific power requirements of all major brands like Jacuzzi, Hot Spring, and Cal Spas."
+    icon: Truck,
+    title: "High-Capacity Trucks",
+    description: "We use modern, high-capacity vacuum trucks to ensure efficient pumping and thorough cleaning of residential and commercial septic systems."
   },
   {
-    icon: Home,
-    title: "Des Moines Locals",
-    description: "We know Des Moines and Polk County electrical codes inside and out. From West Des Moines to Ankeny, we guarantee your installation passes inspection."
+    icon: MapPin,
+    title: "Bismarck Locals",
+    description: "We are locally owned and operated. From downtown Bismarck to rural Burleigh County, we know the local soil conditions and regulations."
   },
   {
     icon: Award,
-    title: "Safety First",
-    description: "Water and electricity demand the highest safety standards. We meticulously install GFCIs, bonding, and emergency disconnects to keep your family safe."
+    title: "System Preservation",
+    description: "Regular pumping is key to preserving your drain field. We provide professional advice and inspections to help extend the life of your system."
   },
   {
     icon: DollarSign,
-    title: "Upfront Pricing",
-    description: "No surprises. We provide detailed, flat-rate quotes for your hot tub wiring project, including materials, labor, and permit fees."
+    title: "No Hidden Fees",
+    description: "Honest, upfront pricing for every job. We provide clear quotes including disposal fees, so you know exactly what to expect."
   },
   {
     icon: Clock,
-    title: "Prompt Scheduling",
-    description: "Ready to soak? We offer flexible scheduling and efficient installation to get your hot tub running as soon as it's delivered."
+    title: "Rapid Response",
+    description: "Septic issues can't wait. We offer flexible scheduling and emergency response to ensure your system is back in order as quickly as possible."
   }
 ];
 
 const stats = [
-  { number: "300+", label: "Spas Wired" },
-  { number: "100%", label: "Code Compliant" },
-  { number: "5-Star", label: "Rated Service" },
-  { number: "Local", label: "Des Moines" }
+  { number: "1000+", label: "Tanks Pumped" },
+  { number: "100%", label: "Burleigh Compliant" },
+  { number: "5-Star", label: "Local Service" },
+  { number: "Local", label: "Bismarck, ND" }
 ];
 
 const WhyUs = () => {
@@ -46,10 +46,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Why Des Moines Chooses Us for Hot Tub Wiring
+            Bismarck's Trusted Septic Pumping Experts
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            We are the trusted choice for safe, reliable, and professional hot tub electrical installation in Central Iowa.
+            Providing reliable, professional, and rapid septic cleaning services throughout Bismarck and the surrounding North Dakota communities.
           </p>
         </div>
 
@@ -61,8 +61,8 @@ const WhyUs = () => {
                 key={index}
                 className="bg-white border border-slate-100 rounded-xl p-6 hover:shadow-lg transition-shadow"
               >
-                <div className="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-4">
-                  <Icon className="w-6 h-6 text-blue-600" />
+                <div className="w-12 h-12 rounded-lg bg-emerald-50 flex items-center justify-center mb-4">
+                  <Icon className="w-6 h-6 text-emerald-600" />
                 </div>
                 <h3 className="text-xl font-heading font-bold text-slate-900 mb-3">
                   {reason.title}
@@ -79,7 +79,7 @@ const WhyUs = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 bg-white border border-slate-100 rounded-xl p-8 shadow-sm">
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-heading font-bold text-blue-600 mb-2">
+              <div className="text-3xl md:text-4xl font-heading font-bold text-emerald-600 mb-2">
                 {stat.number}
               </div>
               <div className="text-sm text-slate-500 font-medium uppercase tracking-wide">
@@ -94,3 +94,4 @@ const WhyUs = () => {
 };
 
 export default WhyUs;
+

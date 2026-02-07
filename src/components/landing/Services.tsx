@@ -1,53 +1,53 @@
-import { Zap, Activity, Settings, Shield, AlertTriangle, CheckCircle2, Box, Calendar } from "lucide-react";
+import { Truck, Activity, Settings, Shield, AlertTriangle, CheckCircle2, Box, Droplets } from "lucide-react";
 
 const services = [
   {
-    icon: Zap,
-    title: "Hot Tub Wiring",
-    description: "Complete electrical wiring for new hot tubs and spas. We provide dedicated 50A/60A circuits to ensure reliable power for your heater and jets.",
-    link: "#hottub-info"
+    icon: Truck,
+    title: "Septic Pumping",
+    description: "Complete septic tank pumping for Bismarck homes. We remove sludge and scum to prevent system overflows and maintain healthy drainage.",
+    link: "#septic-info"
   },
   {
     icon: Activity,
-    title: "Spa Panel Installation",
-    description: "Professional installation of outdoor spa disconnect panels. We ensure safe, code-compliant shut-off switches within sight of your hot tub.",
-    link: "#hottub-info"
+    title: "Tank Cleaning",
+    description: "Professional cleaning of septic tanks using high-vacuum equipment. We ensure your tank is clear of solids and operating at peak efficiency.",
+    link: "#septic-info"
   },
   {
     icon: Settings,
-    title: "Panel Upgrades",
-    description: "Electrical service panel upgrades (100A to 200A) to accommodate the additional load of your new hot tub or swim spa.",
-    link: "#hottub-info"
+    title: "System Inspection",
+    description: "Comprehensive visual inspections of baffles, lids, and overall tank health. Included with every pumping service in Bismarck and Mandan.",
+    link: "#septic-info"
   },
   {
     icon: Shield,
-    title: "GFCI Protection",
-    description: "Installation of Ground Fault Circuit Interrupter (GFCI) breakers to protect you and your family from electrical shock hazards in wet environments.",
-    link: "#hottub-info"
+    title: "Filter Maintenance",
+    description: "Cleaning and servicing of effluent filters to protect your leach field from clogging and extend the life of your entire septic system.",
+    link: "#septic-info"
   },
   {
     icon: AlertTriangle,
-    title: "Troubleshooting",
-    description: "Expert diagnosis and repair of hot tub electrical issues. We fix tripping breakers, heater failures, and control board connection problems.",
-    link: "#hottub-info"
+    title: "Emergency Service",
+    description: "Rapid response for septic backups and system failures. We identify blockages and pump tanks quickly to prevent domestic sewage issues.",
+    link: "#septic-info"
   },
   {
     icon: Box,
-    title: "Relocation Wiring",
-    description: "Disconnect and reconnect services for moving hot tubs. We ensure safe disconnection at the old spot and proper hookup at the new location.",
-    link: "#hottub-info"
+    title: "Riser Installation",
+    description: "Installing septic tank risers for easier access. No more digging up your yard every time you need a pump or an inspection.",
+    link: "#septic-info"
+  },
+  {
+    icon: Droplets,
+    title: "Drain Field Care",
+    description: "Preventative maintenance for drainage fields. We use eco-friendly treatments to help break down solids and maintain soil absorption.",
+    link: "#septic-info"
   },
   {
     icon: CheckCircle2,
-    title: "Safety Inspections",
-    description: "Comprehensive safety audits of existing spa wiring. We check for proper grounding, bonding, and code compliance to ensure safety.",
-    link: "#hottub-info"
-  },
-  {
-    icon: Calendar,
-    title: "Permit Management",
-    description: "We handle all electrical permits and inspections with the City of Des Moines and Polk County, ensuring your installation is fully legal.",
-    link: "#hottub-info"
+    title: "Eco Disposal",
+    description: "Safe and responsible disposal of septic waste at approved facilities, strictly following North Dakota environmental regulations.",
+    link: "#septic-info"
   },
 ];
 
@@ -57,10 +57,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-slate-900 mb-4">
-            Hot Tub Electrical Services
+            Bismarck Septic Pumping Services
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Professional electrical services for hot tubs, spas, and swim spas in Des Moines, Iowa. Licensed electricians ensuring safety and code compliance.
+            Professional septic maintenance and cleaning services in Bismarck, North Dakota. Licensed experts ensuring safety and environmental compliance.
           </p>
         </div>
 
@@ -73,10 +73,10 @@ const Services = () => {
                 className="group bg-slate-50 border border-slate-100 rounded-xl p-6 hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer"
               >
                 <a href={service.link}>
-                  <div className="w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center mb-4 group-hover:bg-blue-600 transition-colors">
-                    <Icon className="w-6 h-6 text-blue-600 group-hover:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center mb-4 group-hover:bg-emerald-600 transition-colors">
+                    <Icon className="w-6 h-6 text-emerald-600 group-hover:text-white transition-colors" />
                   </div>
-                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors">
+                  <h3 className="text-lg font-heading font-bold text-slate-900 mb-2 group-hover:text-emerald-600 transition-colors">
                     {service.title}
                   </h3>
                   <p className="text-slate-600 text-sm leading-relaxed">
@@ -93,3 +93,4 @@ const Services = () => {
 };
 
 export default Services;
+
