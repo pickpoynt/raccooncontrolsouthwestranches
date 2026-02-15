@@ -15,8 +15,8 @@ const Index = () => {
   return (
     <div className="min-h-screen">
       <Helmet>
-        <title>plumber tulsa ok Tulsa OK</title>
-        <meta name="description" content="plumber tulsa ok Tulsa OK. Expert repair, leak detection & master drain services in Tulsa. 24/7 emergency response & precision diagnostics. Call (877) 792-1410!" />
+        <title>plumber tulsa ok</title>
+        <meta name="description" content="plumber tulsa ok - Expert repair, leak detection & master drain services in Tulsa. 24/7 emergency response & precision diagnostics. Call (877) 792-1410!" />
         <meta name="keywords" content="plumber tulsa ok, Tulsa plumbers, emergency plumber Tulsa, drain cleaning Tulsa, plumbing repair OK, Green Country plumbing" />
         <link rel="canonical" href="https://tulsa-plumbing-pros.com/" />
 
