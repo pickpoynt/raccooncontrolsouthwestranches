@@ -16,7 +16,7 @@ const Index = () => {
     <div className="min-h-screen">
       <Helmet>
         <title>plumber tulsa ok Tulsa OK</title>
-        <meta name="description" content="plumber tulsa ok Tulsa OK. Expert plumbing repair, leak detection, and master drain services in Tulsa, OK. 24/7 emergency response and precision diagnostics. Call (877) 792-1410!" />
+        <meta name="description" content="plumber tulsa ok Tulsa OK. Expert repair, leak detection & master drain services in Tulsa. 24/7 emergency response & precision diagnostics. Call (877) 792-1410!" />
         <meta name="keywords" content="plumber tulsa ok, Tulsa plumbers, emergency plumber Tulsa, drain cleaning Tulsa, plumbing repair OK, Green Country plumbing" />
         <link rel="canonical" href="https://tulsa-plumbing-pros.com/" />
 
@@ -26,7 +26,7 @@ const Index = () => {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Tulsa Plumbing Pros",
-            "image": "https://images.unsplash.com/photo-1595180424036-79173c38ef84?auto=format&fit=crop&q=80",
+            "image": "input_file_0.png",
             "telephone": "+18777921410",
             "address": {
               "@type": "PostalAddress",
@@ -107,7 +107,7 @@ const Index = () => {
         <meta property="og:description" content="Expert plumbing and mechanical services in Tulsa. Rapid 24/7 response for Green Country homeowners. Mechanical Excellence." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://tulsa-plumbing-pros.com/" />
-        <meta property="og:image" content="https://images.unsplash.com/photo-1595180424036-79173c38ef84?auto=format&fit=crop&q=80" />
+        <meta property="og:image" content="input_file_1.png" />
       </Helmet>
 
       <Header />
