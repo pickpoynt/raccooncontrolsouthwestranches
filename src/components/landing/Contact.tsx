@@ -10,13 +10,13 @@ const Contact = () => {
             <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 text-emerald-700 mb-6 font-bold uppercase tracking-wider text-sm shadow-sm">
                 <Hammer className="w-4 h-4" />
-                BARABOO PLUMBING PROS
+                DALHART PLUMBING PROS
               </div>
               <h2 className="text-4xl md:text-5xl font-heading font-bold text-slate-900 mb-6 leading-tight uppercase tracking-tight">
-                Schedule <span className="text-emerald-600">Baraboo Service</span>
+                Schedule <span className="text-emerald-600">Dalhart Service</span>
               </h2>
               <p className="text-xl text-slate-600 mb-10 leading-relaxed font-medium italic">
-                Protect your Baraboo property from infrastructure failures. Our specialized technical team provides rapid, professional solutions throughout Sauk County.
+                Protect your Dalhart property from infrastructure failures. Our specialized technical team provides rapid, professional solutions throughout the High Plains.
               </p>
 
               <div className="space-y-8">
@@ -48,7 +48,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-emerald-600 uppercase tracking-widest mb-1">Service Area</p>
-                    <p className="text-xl font-bold text-slate-900">Baraboo & Sauk County</p>
+                    <p className="text-xl font-bold text-slate-900">Dalhart & High Plains Area</p>
                   </div>
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Contact = () => {
                   Request Service
                 </Button>
                 <p className="text-center text-slate-500 text-sm italic font-medium">
-                  *24/7 Priority diagnostics for Baraboo plumbing calls
+                  *24/7 Priority diagnostics for Dalhart plumbing calls
                 </p>
               </form>
             </div>
