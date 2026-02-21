@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import CorvallisRodentControlInfo from "@/components/landing/CorvallisRodentControlInfo";
+import LaGrangeSpiderControlInfo from "@/components/landing/LaGrangeSpiderControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>rodent control corvallis oregon - Corvallis Rodent Control Pros</title>
-        <meta name="description" content="rodent control corvallis oregon - Professional rodent control corvallis oregon. Licensed rat and mouse exterminators deploy proven elimination treatments, exclusion barriers, and full home protection across Corvallis, OR. Call (323) 880-1224 for 24/7 same-day service." />
-        <meta name="keywords" content="rodent control corvallis oregon, corvallis rodent control, mouse exterminator corvallis, rat control oregon" />
-        <link rel="canonical" href="https://rodentcontrolcorvallisoregon.com/" />
+        <title>Brown recluse spider control La Grange - La Grange Brown Recluse Pros</title>
+        <meta name="description" content="Brown recluse spider control La Grange - Professional brown recluse spider control in La Grange. Licensed exterminators providing targeted elimination, exclusion, and spider prevention." />
+        <meta name="keywords" content="Brown recluse spider control La Grange, spider exterminator La Grange, La Grange brown recluse removal, pest control La Grange KY" />
+        <link rel="canonical" href="https://brownreclusespidercontrollagrange.com/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Corvallis Rodent Control Pros",
+            "name": "La Grange Brown Recluse Pros",
             "image": "/1.jpeg",
-            "@id": "https://rodentcontrolcorvallisoregon.com/",
-            "url": "https://rodentcontrolcorvallisoregon.com/",
+            "@id": "https://brownreclusespidercontrollagrange.com/",
+            "url": "https://brownreclusespidercontrollagrange.com/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "300 NW 2nd St",
-              "addressLocality": "Corvallis",
-              "addressRegion": "OR",
-              "postalCode": "97330",
+              "streetAddress": "100 E Main St",
+              "addressLocality": "La Grange",
+              "addressRegion": "KY",
+              "postalCode": "40031",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "44.5646",
-              "longitude": "-123.2620"
+              "latitude": "38.4074",
+              "longitude": "-85.3802"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Rodent Control",
+            "serviceType": "Brown Recluse Spider Control",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Corvallis Rodent Control Pros"
+              "name": "La Grange Brown Recluse Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Corvallis, OR"
+              "name": "La Grange, KY"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Rodent Control Corvallis Oregon Services",
+              "name": "Brown Recluse Spider Control Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rodent Inspection & Entry Point Identification" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mice & Rat Exclusion Barrier" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Rodent Elimination" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Detailed Spider Inspection" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brown Recluse Elimination" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Structural Exclusion & Sealing" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="rodent control corvallis oregon - Corvallis Rodent Control Pros" />
-        <meta property="og:description" content="rodent control corvallis oregon - Licensed Corvallis OR rodent specialists. Same-day mice and rat elimination, exclusion barriers, and full home protection across Benton County, Oregon." />
+        <meta property="og:title" content="Brown recluse spider control La Grange - La Grange Brown Recluse Pros" />
+        <meta property="og:description" content="Brown recluse spider control La Grange - Expert spider elimination and prevention services in La Grange, KY." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rodentcontrolcorvallisoregon.com/" />
+        <meta property="og:url" content="https://brownreclusespidercontrollagrange.com/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              rodent control <br />
-              <span className="text-white drop-shadow-sm uppercase">corvallis oregon</span>
+              Brown recluse spider control <br />
+              <span className="text-white drop-shadow-sm uppercase">La Grange</span>
             </>
           }
-          subtitle="Corvallis's most trusted rodent control specialists. We deploy targeted interior trapping, exterior exclusion applications, and full property decontamination to protect your Benton County home from rats and mice — fast and guaranteed."
+          subtitle="La Grange's specialized experts in brown recluse spider elimination. We provide comprehensive inspections, targeted treatments, and long-term exclusion to keep your home safe from venomous spiders. Available 24/7 for emergency spider control."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="CORVALLIS OREGON RODENT CONTROL ELITE"
+          badge="LA GRANGE SPIDER CONTROL ELITE"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <CorvallisRodentControlInfo />
+        <LaGrangeSpiderControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />

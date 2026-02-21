@@ -2,7 +2,7 @@ const links = [
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
   { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-  { text: "South Point Ohio Pest Control Pros", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
 ];
 
 const RandomLinks = () => {

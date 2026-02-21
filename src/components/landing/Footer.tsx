@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Corvallis Rodent</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">La Grange Spider</span>
                 <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Control Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Corvallis's trusted rodent control experts. We provide targeted rat and mouse elimination, exterior exclusion barriers, and full property decontamination across Benton County, OR and the Willamette Valley.
+              La Grange's specialized experts in brown recluse spider elimination. We provide clinical-grade treatments, deep-structure fogging, and comprehensive exclusion to protect your Oldham County home.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Rodent Inspection", "Entry Point Exclusion", "Mice & Rat Elimination", "Attic Decontamination", "Preventive Monitoring"].map((item) => (
+              {["Spider Inspection", "Brown Recluse Elimination", "Structural Exclusion", "Web Removal", "Quarterly Prevention"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -54,9 +54,9 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  Corvallis Rodent Control Pros<br />
-                  300 NW 2nd St<br />
-                  Corvallis, OR 97330
+                  La Grange Brown Recluse Pros<br />
+                  100 E Main St<br />
+                  La Grange, KY 40031
                 </address>
               </div>
               <div className="flex items-center gap-4">
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} Corvallis Rodent Control Pros. All rights reserved. Professional Rodent Control Corvallis Oregon.
+            © {new Date().getFullYear()} La Grange Brown Recluse Pros. All rights reserved. Professional Brown Recluse Spider Control La Grange.
           </p>
         </div>
       </div>

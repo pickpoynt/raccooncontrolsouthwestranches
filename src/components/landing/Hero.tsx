@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Puyallup Repiping Pros",
-  subtitle = "Expert residential repiping for Puyallup's historic and modern homes.",
-  image = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80",
-  overlayImage = "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&q=80",
-  phone = "8777921410",
-  badge = "PUYALLUP REPIPING PROS",
+  title = "La Grange Brown Recluse Pros",
+  subtitle = "Expert brown recluse spider elimination for La Grange's historic and modern homes.",
+  image = "/1.jpeg",
+  overlayImage = "/2.jpeg",
+  phone = "3238801224",
+  badge = "LA GRANGE SPIDER CONTROL PROS",
   features = [
-    { icon: Locate, text: "Precision Mapping" },
-    { icon: ShieldCheck, text: "Pierce County Ready" },
-    { icon: Activity, text: "Technical Restoration" }
+    { icon: Locate, text: "Precision Inspection" },
+    { icon: ShieldCheck, text: "Oldham County Ready" },
+    { icon: Activity, text: "Venomous Elimination" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

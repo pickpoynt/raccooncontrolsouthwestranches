@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">rodent control corvallis oregon</span>
+            Expert <span className="text-indigo-600">Brown recluse spider control La Grange</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Corvallis homeowners and local businesses trust us for precision rat and mouse elimination, total structure exclusion, and full property decontamination. We target every rodent entry point found in Benton County properties.
+            La Grange residents trust us for precision brown recluse elimination, deep-structure exclusion, and long-term spider prevention. We target every spider harborage site found in Oldham County homes.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Rodent Inspection",
-              description: "Comprehensive inspection of your Corvallis property — identifying rat runways, mouse entry holes, nesting sites in insulation, and structural vulnerabilities unique to Willamette Valley homes.",
+              title: "Spider Inspection",
+              description: "Comprehensive inspection of your La Grange property — identifying spider harborage sites in wall voids, attics, and cluttered storage areas unique to Kentucky homes.",
             },
             {
               icon: ShieldCheck,
               title: "Structure Exclusion",
-              description: "Professional-grade exclusion work including steel mesh barriers, industrial sealant, and hardware cloth applied to foundation vents, roof lines, and utility penetrations rodents use to enter.",
+              description: "Professional-grade exclusion including sealing cracks, crevices, and utility penetrations to block spider entry points into your living spaces and bedrooms.",
             },
             {
               icon: Bug,
               title: "Targeted Elimination",
-              description: "Strategic placement of high-efficiency traps and localized baiting systems to rapidly eliminate rats and mice already established inside your Corvallis, OR home or business.",
+              description: "Clinical-grade spider treatments and deep-structure fogging to rapidly eliminate brown recluse populations already established inside your La Grange home.",
             },
             {
               icon: Home,
-              title: "Attic & Crawl Decontamination",
-              description: "Rodents leave dangerous pathogens in insulation. We provide full cleanup, sanitization, and insulation replacement to restore a healthy environment to your Benton County property.",
+              title: "Clutter Management",
+              description: "Spiders thrive in clutter. We provide detailed habitat modification plans and exterior perimeter barriers to keep venomous spiders away from your family.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "What rodents are most common in Corvallis, Oregon?",
-    answer: "Corvallis's mix of heavy rainfall, agricultural surroundings, and older neighborhoods creates high pressure from Deer Mice, House Mice, and Norway Rats. During the rainy season, these rodents aggressively seek shelter indoors. Our rodent control corvallis oregon team specializes in the specific behaviors of Willamette Valley rodent species."
+    question: "How can I identify a brown recluse spider?",
+    answer: "Brown recluses are typically sandy brown to dark brown with a distinct dark violin-shaped mark on their cephalothorax (the front body part). They have six eyes arranged in three pairs. Our Brown recluse spider control La Grange specialists can provide positive identification and risk assessment for your property."
   },
   {
-    question: "How do you stop rats and mice from coming back?",
-    answer: "Elimination is only half the battle. We focus on exclusion — sealing every possible entry point larger than 1/4 inch with rodent-proof materials like steel mesh and structural sealants. By removing the access, we provide a permanent solution for your Corvallis home."
+    question: "Why are brown recluses so hard to eliminate?",
+    answer: "Their 'reclusive' nature is the biggest challenge; they hide deep within wall voids and cluttered storage areas. Standard pest control often fails because it doesn't reach these core nesting zones. We use specialized flushing agents and micro-encapsulated treatments to ensure total elimination."
   },
   {
-    question: "How quickly can you respond to a rodent problem in Corvallis, OR?",
-    answer: "We offer same-day service for active rodent sightings across Corvallis and all of Benton County, including Philomath, Albany, and Lebanon. Call (323) 880-1224 and we'll dispatch a specialist immediately to begin trapping and exclusion."
+    question: "How quickly can you respond to a spider problem in La Grange?",
+    answer: "We offer same-day service for brown recluse sightings across La Grange and all of Oldham County. Call (323) 880-1224 and we'll dispatch a specialist immediately to begin the inspection and elimination process."
   },
   {
-    question: "Are your rodent treatments safe for pets and children?",
-    answer: "Yes. Our priority is structural exclusion first. When trapping or baiting is necessary, we use locked, tamper-resistant stations placed in areas inaccessible to pets and children. We follow strict Oregon IPM (Integrated Pest Management) standards."
+    question: "Are your spider treatments safe for my family and pets?",
+    answer: "Yes. Our priority is safety. We use specialized application techniques that target spider harborage sites while minimizing exposure to living areas. All treatments follow strict regulatory guidelines for residential use."
   },
   {
-    question: "Do you offer attic cleanup after a rodent infestation?",
-    answer: "Yes. Rodents leave behind urine, droppings, and nesting material that can carry Hantavirus and other pathogens. Our team provides professional decontamination, sanitization, and insulation replacement to ensure your Corvallis property is healthy and safe again."
+    question: "How do you prevent spiders from coming back into my home?",
+    answer: "We focus on exclusion and perimeter defense. By sealing small cracks and crevices and applying a long-lasting residual barrier around the foundation of your La Grange home, we create an environment that is naturally resistant to spider infestations."
   }
 ];
 
@@ -33,12 +33,12 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Rodent Expert Answers</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Spider Expert Answers</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Rodent Control Corvallis Oregon <span className="text-indigo-600">FAQ</span>
+            Brown recluse spider control La Grange <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for Corvallis and Benton County property owners dealing with rat or mouse problems.
+            Key answers for La Grange and Oldham County property owners dealing with venomous spider problems.
           </p>
         </div>
 
