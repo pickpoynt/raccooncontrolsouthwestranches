@@ -52,28 +52,7 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* $19/month phone replacement offer */}
-            <div className="p-8 bg-gradient-to-br from-indigo-900 to-slate-900 rounded-[2rem] text-white border border-indigo-500/30 shadow-2xl relative overflow-hidden group">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-white/5 rounded-full -translate-y-16 translate-x-16" />
-              <div className="relative z-10">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center border border-indigo-400/30">
-                    <DollarSign className="w-6 h-6 text-indigo-400" />
-                  </div>
-                  <h4 className="text-xl font-bold uppercase tracking-tight">Lease This Number</h4>
-                </div>
-                <p className="text-indigo-100 text-sm leading-relaxed mb-6 italic">
-                  Want to replace this phone number with your own business line? We offer exclusive lead routing placement for only <strong>$19 a month</strong>.
-                </p>
-                <a
-                  href="mailto:bankonmanish@gmail.com?subject=Phone Replacement Inquiry - South Point Ohio Pest Control"
-                  className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-xl font-bold uppercase tracking-widest text-xs transition-all hover:gap-3"
-                >
-                  <Mail className="w-4 h-4" />
-                  bankonmanish@gmail.com
-                </a>
-              </div>
-            </div>
+
           </div>
         </div>
 

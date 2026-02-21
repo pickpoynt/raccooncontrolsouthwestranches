@@ -37,9 +37,9 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Company</h4>
             <ul className="space-y-4">
-              {["About Us", "Coverage Area", "Contact Us", "Privacy Policy"].map((item) => (
+              {["About Us", "Coverage Area", "Contact Us", "Privacy Policy", "Lease This Number"].map((item) => (
                 <li key={item}>
-                  <a href="#" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
+                  <a href={item === "Lease This Number" ? "/lease" : "#"} className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
                     {item}
                   </a>
