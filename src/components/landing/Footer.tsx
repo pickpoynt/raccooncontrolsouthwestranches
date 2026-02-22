@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">McCook Coyote</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros McCook</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Frankenmuth Gopher</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Frankenmuth</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              Southwest Nebraska's specialized team for rapid coyote mitigation and livestock asset protection. We provide elite-grade tracking and security services to restore your property's safety.
+              Frankenmuth's specialized team for rapid gopher mitigation and landscape asset protection. We provide elite-grade subterranean tracking and security services to restore your property's safety.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -34,12 +34,12 @@ const Footer = () => {
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Services</h4>
             <ul className="space-y-4">
               {[
-                "Livestock Defense",
+                "Lawn Protection",
                 "Residential Removal",
-                "Thermal Monitoring",
+                "Subsurface Mapping",
                 "Property Hardening",
-                "Exclusion Service",
-                "Den Mitigation"
+                "Gopher Mesh Install",
+                "Burrow Mitigation"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -60,8 +60,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Office</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">302 Norris Ave</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">McCook, NE 69001</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">635 S Main St</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Frankenmuth, MI 48734</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -88,23 +88,23 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Standards</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We operate under strict wildlife mitigation protocols to ensure professional results while maintaining the ecological balance of Southwest Nebraska.
+              We operate under strict pest mitigation protocols to ensure professional results while maintaining the ecological balance of Saginaw County.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Assessment Available in Red Willow County.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Assessment Available in Frankenmuth.</p>
             </div>
           </div>
         </div>
 
-        <div className="pt-12 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6">
-          <p className="text-slate-500 text-[10px] font-bold uppercase tracking-widest text-center md:text-left">
-            © {new Date().getFullYear()} McCook Coyote Control Pros. All rights reserved. Professional Wildlife Management & Predator Control.
+        <div className="pt-12 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
+          <p className="text-slate-500 text-center md:text-left">
+            © {new Date().getFullYear()} Frankenmuth Gopher Control Pros. All rights reserved. Professional Wildlife Management & Gopher Control.
           </p>
-          <div className="flex gap-8">
-            <a href="/lease" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Lease</a>
-            <a href="#" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Privacy Policy</a>
-            <a href="#" className="text-slate-500 hover:text-indigo-400 text-[10px] font-bold uppercase tracking-widest transition-colors">Terms of Service</a>
+          <div className="flex gap-8 items-center">
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30">Lease My Number</a>
+            <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
+            <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
         </div>
       </div>

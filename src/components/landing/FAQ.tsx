@@ -2,20 +2,20 @@ import { HelpCircle } from 'lucide-react';
 
 const faqs = [
   {
-    question: "How do I know if I have a coyote problem in McCook?",
-    answer: "Regular group howling, sightings of coyotes near property lines during the day, or evidence of livestock distress/injury are primary indicators. You may also find livestock losses that occur during the night. If coyotes are shadowing you or your pets while walking, it's a critical sign of habituation that requires immediate coyote control McCook NE intervention."
+    question: "How do I know if I have a gopher problem in Frankenmuth?",
+    answer: "The most common sign is the appearance of crescent-shaped mounds of fresh soil on your lawn or in your garden. You might also notice plants suddenly dying from root damage or tunnels appearing just below the surface of the soil. If your irrigation lines are being damaged, it's a critical sign of a gopher infestation that requires immediate Gopher control Frankenmuth MI intervention."
   },
   {
-    question: "Are your coyote control methods humane?",
-    answer: "Yes. We prioritize humane, non-lethal hazing and exclusion methods whenever possible. When removal is necessary, we follow all Nebraska Game and Parks Commission regulations and use humane, professional wildlife management techniques to ensure the most ethical outcome."
+    question: "Are your gopher control methods safe for my lawn?",
+    answer: "Yes. We use specialized, low-impact removal techniques that target gophers within their burrow systems. This allows us to neutralize the threat without the need for extensive digging or damaging your turf. Our goal is to protect your landscape's aesthetic while eliminating the pests."
   },
   {
-    question: "Can you protect my pets from residential coyotes?",
-    answer: "Absolutely. Residential coyote issues in McCook are often caused by accessible food sources and lack of pet security. We provide property audits to identify attractants and consult on pet-safe enclosures and hazing tools to keep the coyotes away from your family home."
+    question: "Can gophers damage my home's foundation?",
+    answer: "Absolutely. Constant burrowing near foundations can lead to soil erosion and voids under concrete slabs or walkways. Over time, this can cause structural instability. We provide perimeter hardening services in Frankenmuth to prevent gophers from undermining your property's integrity."
   },
   {
-    question: "Do you provide emergency response for livestock attacks?",
-    answer: "Yes, we are available 24/7 for emergency predator mitigation. If you are experiencing an active threat to your livestock in McCook or Red Willow County, call us immediately for rapid thermal tracking and intervention."
+    question: "Do you provide emergency response for gopher damage?",
+    answer: "Yes, we are available 24/7 for assessment and intervention. If you notice a sudden explosion of gopher activity that is threatening expensive landscaping or utility lines in Frankenmuth or Saginaw County, call us immediately for rapid subterranean mitigation."
   }
 ];
 
@@ -36,10 +36,10 @@ const FAQ = () => {
             Common Questions
           </div>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            coyote control McCook NE <span className="text-indigo-600">FAQ</span>
+            Gopher control Frankenmuth MI <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Essential information for McCook ranchers and property owners regarding predator behavior, livestock safety, and ethical control methods.
+            Essential information for Frankenmuth residents and property owners regarding gopher behavior, landscape safety, and effective control methods.
           </p>
         </div>
 

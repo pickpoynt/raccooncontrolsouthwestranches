@@ -1,4 +1,4 @@
-import { ArrowRight, Search, ShieldCheck, Target, Activity, Home } from "lucide-react";
+import { ArrowRight, Search, ShieldCheck, Target, Activity, Home, Shovel, Sprout } from "lucide-react";
 
 const Services = () => {
   return (
@@ -6,34 +6,34 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">coyote control McCook NE</span>
+            Expert <span className="text-indigo-600">Gopher control Frankenmuth MI</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Southwest Nebraska ranchers and property owners trust our specialized team for strategic coyote removal, livestock defense, and property securing. We manage predator threats with precision.
+            Frankenmuth homeowners and property managers trust our specialized team for strategic gopher removal, landscape defense, and property securing. We manage burrowing threats with precision.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {[
             {
-              icon: Target,
-              title: "Livestock Defense",
-              description: "Specialized predator management plans for calving, lambing, and poultry operations in McCook — ensuring your livestock remains safe from pack predation.",
+              icon: Sprout,
+              title: "Landscape Defense",
+              description: "Specialized gopher management plans for gardens, lawns, and flower beds in Frankenmuth — ensuring your landscape remains safe from destructive tunneling.",
             },
             {
               icon: Search,
-              title: "Thermal Mapping",
-              description: "Advanced nocturnal surveillance using thermal imaging to track coyote movements and identify denning sites near your property lines.",
+              title: "Runway Mapping",
+              description: "Advanced subterranean detection using specialized probes to track gopher runway patterns and identify nesting sites near your property foundation.",
             },
             {
               icon: ShieldCheck,
               title: "Property Securing",
-              description: "Installation of predator-proof fencing, motion deterrents, and property hardening techniques to discourage coyotes from entering residential zones.",
+              description: "Installation of underground gopher mesh, root guards, and perimeter hardening techniques to discourage gophers from invading your green spaces.",
             },
             {
               icon: Activity,
-              title: "Humane Removal",
-              description: "Professional, licensed removal of problem individuals and aggressive packs using humane and regulated wildlife management protocols.",
+              title: "Burrow Neutralization",
+              description: "Professional, licensed removal of problem colonies using precision-targeted subterranean methods that are safe for your soil and landscape.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">

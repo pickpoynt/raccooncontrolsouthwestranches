@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import McCookCoyoteInfo from "@/components/landing/McCookCoyoteInfo";
+import FrankenmuthGopherControlInfo from "@/components/landing/FrankenmuthGopherControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>coyote control McCook NE - McCook Coyote Control Pros</title>
-        <meta name="description" content="coyote control McCook NE - Professional coyote control and livestock protection in McCook. Specialized wildlife experts providing humane removal and property securing." />
-        <meta name="keywords" content="coyote control McCook NE, coyote removal McCook, livestock protection McCook, ranch predator control Red Willow County, wildlife management McCook NE" />
-        <link rel="canonical" href="https://coyotecontrolmccookne.vercel.app/" />
+        <title>Gopher control Frankenmuth MI - Frankenmuth Gopher Control Pros</title>
+        <meta name="description" content="Gopher control Frankenmuth MI - Professional gopher removal and landscape protection in Frankenmuth. Specialized pest experts providing humane removal and property securing." />
+        <meta name="keywords" content="Gopher control Frankenmuth MI, gopher removal Frankenmuth, landscape protection Frankenmuth, garden pest control Saginaw County, wildlife management Frankenmuth MI" />
+        <link rel="canonical" href="https://gophercontrolfrankenmuthmi.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "McCook Coyote Control Pros",
+            "name": "Frankenmuth Gopher Control Pros",
             "image": "/1.jpeg",
-            "@id": "https://coyotecontrolmccookne.vercel.app/",
-            "url": "https://coyotecontrolmccookne.vercel.app/",
+            "@id": "https://gophercontrolfrankenmuthmi.vercel.app/",
+            "url": "https://gophercontrolfrankenmuthmi.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "302 Norris Ave",
-              "addressLocality": "McCook",
-              "addressRegion": "NE",
-              "postalCode": "69001",
+              "streetAddress": "635 S Main St",
+              "addressLocality": "Frankenmuth",
+              "addressRegion": "MI",
+              "postalCode": "48734",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.2019",
-              "longitude": "-100.6257"
+              "latitude": "43.3323",
+              "longitude": "-83.7383"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Coyote Control & Predator Mitigation",
+            "serviceType": "Gopher Control & Landscape Protection",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "McCook Coyote Control Pros"
+              "name": "Frankenmuth Gopher Control Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "McCook, NE"
+              "name": "Frankenmuth, MI"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Coyote Services",
+              "name": "Gopher Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Livestock Predator Defense" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Residential Coyote Removal" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermal Wildlife Monitoring" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Underground Tunnel Mitigation" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sub-surface Gopher Removal" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landscape Restoration & Hardening" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="coyote control McCook NE - McCook Coyote Control Pros" />
-        <meta property="og:description" content="coyote control McCook NE - Expert coyote removal and livestock protection services in McCook, NE." />
+        <meta property="og:title" content="Gopher control Frankenmuth MI - Frankenmuth Gopher Control Pros" />
+        <meta property="og:description" content="Gopher control Frankenmuth MI - Expert gopher removal and landscape protection services in Frankenmuth, MI." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://coyotecontrolmccookne.vercel.app/" />
+        <meta property="og:url" content="https://gophercontrolfrankenmuthmi.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,19 +87,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              coyote control <br />
-              <span className="text-white drop-shadow-sm uppercase">McCook NE</span>
+              Gopher control <br />
+              <span className="text-white drop-shadow-sm uppercase">Frankenmuth MI</span>
             </>
           }
-          subtitle="McCook's specialized experts in professional coyote control and livestock asset protection. We provide rapid-response predator mitigation, thermal tracking, and property securing to safeguard your ranch and family from aggressive coyotes. Available 24/7."
+          subtitle="Frankenmuth's specialized experts in professional gopher control and landscape asset protection. We provide rapid-response pest mitigation, sub-surface tracking, and property securing to safeguard your lawn and garden from destructive gophers. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="MCCOOK COYOTE PROS"
+          badge="FRANKENMUTH GOPHER PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <McCookCoyoteInfo />
+        <FrankenmuthGopherControlInfo />
         <Contact />
         <FAQ />
         <RandomLinks />
