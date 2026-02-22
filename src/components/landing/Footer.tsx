@@ -11,19 +11,19 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-indigo-500" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">La Grange Spider</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Control Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase">Chesapeake Repiping</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Chesapeake</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic">
-              La Grange's specialized experts in brown recluse spider elimination. We provide clinical-grade treatments, deep-structure fogging, and comprehensive exclusion to protect your Oldham County home.
+              Chesapeake's specialized experts in comprehensive home repiping. We provide full-system replacements with PEX and copper, ensuring your home's plumbing is durable, safe, and efficient for decades to come.
             </p>
           </div>
 
           <div>
             <h4 className="text-white font-bold mb-6 uppercase tracking-widest text-sm">Services</h4>
             <ul className="space-y-4">
-              {["Spider Inspection", "Brown Recluse Elimination", "Structural Exclusion", "Web Removal", "Quarterly Prevention"].map((item) => (
+              {["Full Home Repiping", "PEX Pipe Installation", "Copper Pipe Replacement", "Galvanized Pipe Removal", "Main Water Line Service"].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-indigo-500 transition-colors font-medium flex items-center gap-2 group">
                     <div className="w-1 h-1 rounded-full bg-indigo-500/40 group-hover:w-2 transition-all" />
@@ -54,15 +54,15 @@ const Footer = () => {
               <div className="flex items-start gap-4">
                 <MapPin className="w-6 h-6 text-indigo-500 shrink-0" />
                 <address className="text-slate-400 not-italic font-medium leading-relaxed">
-                  La Grange Brown Recluse Pros<br />
-                  100 E Main St<br />
-                  La Grange, KY 40031
+                  Chesapeake Repiping Pros<br />
+                  1215 Volvo Pkwy<br />
+                  Chesapeake, VA 23320
                 </address>
               </div>
               <div className="flex items-center gap-4">
                 <Phone className="w-6 h-6 text-indigo-500 shrink-0" />
-                <a href="tel:3238801224" className="text-xl font-bold text-white hover:text-indigo-500 transition-colors">
-                  (323) 880-1224
+                <a href="tel:8777921410" className="text-xl font-bold text-white hover:text-indigo-500 transition-colors">
+                  (877) 792-1410
                 </a>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Footer = () => {
 
         <div className="pt-12 border-t border-slate-800 text-center">
           <p className="text-slate-500 text-sm font-medium italic">
-            © {new Date().getFullYear()} La Grange Brown Recluse Pros. All rights reserved. Professional Brown Recluse Spider Control La Grange.
+            © {new Date().getFullYear()} Chesapeake Repiping Pros. All rights reserved. Professional Home Repiping Chesapeake VA.
           </p>
         </div>
       </div>

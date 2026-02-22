@@ -6,10 +6,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Brown recluse spider control La Grange</span>
+            Expert <span className="text-indigo-600">home repiping chesapeake va</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            La Grange residents trust us for precision brown recluse elimination, deep-structure exclusion, and long-term spider prevention. We target every spider harborage site found in Oldham County homes.
+            Chesapeake homeowners trust us for professional whole-home repiping, specialized PEX conversions, and high-performance copper water line replacements. We restore your home's plumbing to peak efficiency.
           </p>
         </div>
 
@@ -17,23 +17,23 @@ const Services = () => {
           {[
             {
               icon: Search,
-              title: "Spider Inspection",
-              description: "Comprehensive inspection of your La Grange property — identifying spider harborage sites in wall voids, attics, and cluttered storage areas unique to Kentucky homes.",
+              title: "Leak Inspection",
+              description: "Comprehensive diagnostic inspection of your Chesapeake property — identifying corrosion in galvanized pipes and pinhole leaks in older copper systems.",
             },
             {
               icon: ShieldCheck,
-              title: "Structure Exclusion",
-              description: "Professional-grade exclusion including sealing cracks, crevices, and utility penetrations to block spider entry points into your living spaces and bedrooms.",
+              title: "PEX Conversion",
+              description: "Modern PEX-a piping installation that is flexible, freeze-resistant, and scale-resistant — ideal for the varied climates of the Hampton Roads area.",
             },
             {
               icon: Bug,
-              title: "Targeted Elimination",
-              description: "Clinical-grade spider treatments and deep-structure fogging to rapidly eliminate brown recluse populations already established inside your La Grange home.",
+              title: "Copper Repiping",
+              description: "Traditional high-quality Type L copper repiping for homeowners who prefer the durability, longevity, and antimicrobial benefits of rigid metal piping.",
             },
             {
               icon: Home,
-              title: "Clutter Management",
-              description: "Spiders thrive in clutter. We provide detailed habitat modification plans and exterior perimeter barriers to keep venomous spiders away from your family.",
+              title: "Main Water Line",
+              description: "Full replacement of your home's main water service line from the meter to the house, tackling low pressure and contaminated water at the source.",
             }
           ].map((service, index) => (
             <div key={index} className="group p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:bg-white hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-1 transition-all duration-300">
@@ -44,7 +44,7 @@ const Services = () => {
                 <h3 className="text-xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700 uppercase tracking-tight">{service.title}</h3>
                 <p className="text-slate-600 leading-relaxed font-medium mb-6">{service.description}</p>
                 <div className="flex items-center gap-2 text-indigo-600 font-bold text-sm uppercase tracking-wider group-hover:gap-3 transition-all">
-                  Get Service <ArrowRight className="w-4 h-4" />
+                  Get Estimate <ArrowRight className="w-4 h-4" />
                 </div>
               </a>
             </div>

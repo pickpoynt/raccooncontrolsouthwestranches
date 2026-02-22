@@ -1,23 +1,23 @@
 const faqs = [
   {
-    question: "How can I identify a brown recluse spider?",
-    answer: "Brown recluses are typically sandy brown to dark brown with a distinct dark violin-shaped mark on their cephalothorax (the front body part). They have six eyes arranged in three pairs. Our Brown recluse spider control La Grange specialists can provide positive identification and risk assessment for your property."
+    question: "What are the signs that my Chesapeake home needs repiping?",
+    answer: "Common signs include frequent leaks, a noticeable drop in water pressure, discolored or rusty water, and a metallic taste. If your home has galvanized pipes or is over 40 years old, a professional inspection from our home repiping chesapeake va team is highly recommended."
   },
   {
-    question: "Why are brown recluses so hard to eliminate?",
-    answer: "Their 'reclusive' nature is the biggest challenge; they hide deep within wall voids and cluttered storage areas. Standard pest control often fails because it doesn't reach these core nesting zones. We use specialized flushing agents and micro-encapsulated treatments to ensure total elimination."
+    question: "How long does a typical whole-home repipe take?",
+    answer: "Most whole-home repiping projects in Chesapeake are completed in 3 to 5 days. We work efficiently to minimize disruption, often ensuring you have water service restored at the end of each workday."
   },
   {
-    question: "How quickly can you respond to a spider problem in La Grange?",
-    answer: "We offer same-day service for brown recluse sightings across La Grange and all of Oldham County. Call (323) 880-1224 and we'll dispatch a specialist immediately to begin the inspection and elimination process."
+    question: "Which is better for repiping: PEX or Copper?",
+    answer: "Both have advantages. PEX is flexible, resistant to scale, and more affordable, making it a popular choice for Chesapeake attics and crawlspaces. Copper is traditional, durable, and has natural antimicrobial properties. We'll help you choose the best material for your specific needs."
   },
   {
-    question: "Are your spider treatments safe for my family and pets?",
-    answer: "Yes. Our priority is safety. We use specialized application techniques that target spider harborage sites while minimizing exposure to living areas. All treatments follow strict regulatory guidelines for residential use."
+    question: "Will repiping my home require tearing down all my walls?",
+    answer: "Not at all. Our home repiping chesapeake va specialists use 'surgical' extraction methods. We make small, strategic incisions in the drywall that are easily patched, preserving as much of your home's original finish as possible."
   },
   {
-    question: "How do you prevent spiders from coming back into my home?",
-    answer: "We focus on exclusion and perimeter defense. By sealing small cracks and crevices and applying a long-lasting residual barrier around the foundation of your La Grange home, we create an environment that is naturally resistant to spider infestations."
+    question: "Does repiping increase my home's value?",
+    answer: "Yes, significantly. A full repipe is a major selling point in the Chesapeake real estate market, as it assures buyers that the home is free from hidden water damage risks and has modernized plumbing infrastructure."
   }
 ];
 
@@ -33,12 +33,12 @@ const FAQ = () => {
     <section id="faq" className="py-24 bg-slate-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 max-w-3xl mx-auto">
-          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Spider Expert Answers</span>
+          <span className="text-indigo-600 font-bold tracking-widest uppercase text-sm">Repiping Expert Answers</span>
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mt-4 mb-6 uppercase tracking-tight">
-            Brown recluse spider control La Grange <span className="text-indigo-600">FAQ</span>
+            home repiping chesapeake va <span className="text-indigo-600">FAQ</span>
           </h2>
           <p className="text-xl text-slate-600 font-medium italic">
-            Key answers for La Grange and Oldham County property owners dealing with venomous spider problems.
+            Key answers for Chesapeake property owners considering complete plumbing modernization.
           </p>
         </div>
 
