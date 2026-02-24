@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import FultonEarwigControlInfo from "@/components/landing/FultonEarwigControlInfo";
+import JosephineWaterDamageInfo from "@/components/landing/JosephineWaterDamageInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>Earwig control Fulton MD - Fulton Earwig Control Pros</title>
-        <meta name="description" content="Earwig control Fulton MD - Professional earwig extermination and barrier treatments in Fulton. Specialized pest experts providing rapid moisture control and property protection." />
-        <meta name="keywords" content="Earwig control Fulton MD, earwig exterminator Fulton, basement pest control Fulton, moisture control Howard County, pincher bug removal Fulton MD" />
-        <link rel="canonical" href="https://earwigcontrolfultonmd.vercel.app/" />
+        <title>water damage restoration josephine tx - Josephine Water Damage Pros</title>
+        <meta name="description" content="water damage restoration josephine tx - Professional water damage restoration, emergency flood cleanup, and mold remediation in Josephine. Expert technicians available 24/7." />
+        <meta name="keywords" content="water damage restoration josephine tx, emergency water removal Josephine, flood cleanup Josephine TX, mold remediation Josephine, water extraction Josephine" />
+        <link rel="canonical" href="https://waterdamagerestorationjosephinetx.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Fulton Earwig Control Pros",
+            "name": "Josephine Water Damage Pros",
             "image": "/1.jpeg",
-            "@id": "https://earwigcontrolfultonmd.vercel.app/",
-            "url": "https://earwigcontrolfultonmd.vercel.app/",
-            "telephone": "+13238801224",
+            "@id": "https://waterdamagerestorationjosephinetx.vercel.app/",
+            "url": "https://waterdamagerestorationjosephinetx.vercel.app/",
+            "telephone": "+13802660944",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "7600 Old Columbia Rd",
-              "addressLocality": "Fulton",
-              "addressRegion": "MD",
-              "postalCode": "20759",
+              "streetAddress": "Main St",
+              "addressLocality": "Josephine",
+              "addressRegion": "TX",
+              "postalCode": "75164",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "39.1554",
-              "longitude": "-76.9247"
+              "latitude": "33.0612",
+              "longitude": "-96.3150"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,31 +54,31 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Earwig Control & Moisture Management",
+            "serviceType": "Water Damage Restoration & Flood Cleanup",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Fulton Earwig Control Pros"
+              "name": "Josephine Water Damage Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Fulton, MD"
+              "name": "Josephine, TX"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Earwig Services",
+              "name": "Water Damage Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Barrier Treatments" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Moisture Assessment" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Foundation Sealing" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency Water Extraction" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Flood Damage Repair" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mold Mitigation" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="Earwig control Fulton MD - Fulton Earwig Control Pros" />
-        <meta property="og:description" content="Earwig control Fulton MD - Expert earwig extermination and moisture management services in Fulton, MD." />
+        <meta property="og:title" content="water damage restoration josephine tx - Josephine Water Damage Pros" />
+        <meta property="og:description" content="water damage restoration josephine tx - Expert water damage restoration and emergency flood cleanup services in Josephine, TX." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://earwigcontrolfultonmd.vercel.app/" />
+        <meta property="og:url" content="https://waterdamagerestorationjosephinetx.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -87,21 +87,34 @@ const Index = () => {
         <Hero
           title={
             <>
-              Earwig control <br />
-              <span className="text-white drop-shadow-sm uppercase">in Fulton MD</span>
+              Water Damage <br />
+              <span className="text-white drop-shadow-sm uppercase">Restoration in Josephine TX</span>
             </>
           }
-          subtitle="Fulton's specialized experts in professional earwig pest control and moisture defense. We provide rapid-response barrier treatments, foundation sealing, and property protection to safeguard your home from humid-weather pests. Available 24/7."
+          subtitle="Josephine's specialized experts in professional water damage restoration and emergency structural drying. We provide rapid-response flood cleanup, mold remediation, and property protection to safeguard your home after plumbing failures or storms. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="FULTON EARWIG PROS"
-          phone="3238801224"
+          badge="JOSEPHINE WATER DAMAGE PROS"
+          phone="3802660944"
         />
         <Services />
         <WhyUs />
-        <FultonEarwigControlInfo />
+        <JosephineWaterDamageInfo />
         <Contact />
         <FAQ />
+
+        <section className="bg-white py-12 border-t">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-bold mb-6 text-slate-800">Our Network of Service Areas</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <a href="https://earwigexterminatordenver.vercel.app/" className="text-blue-600 hover:underline">Earwig Exterminator Denver</a>
+              <a href="https://centipederepellenthawaii.vercel.app/" className="text-blue-600 hover:underline">Centipede Repellent Hawaii</a>
+              <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-blue-600 hover:underline">Pest Control South Point Ohio</a>
+              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-blue-600 hover:underline">Rodent Control Corvallis Oregon</a>
+            </div>
+          </div>
+        </section>
+
         <RandomLinks />
       </main>
       <Footer />

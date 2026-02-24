@@ -3,23 +3,23 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Foundation Sealing",
-    description: "Our Earwig control Fulton MD experts identify structural gaps and install industrial-grade sealants to keep earwigs out of your basement."
+    title: "Water Extraction",
+    description: "Our water damage restoration josephine tx experts use industrial-grade pumps to rapidly remove standing water from your property."
   },
   {
     icon: Search,
-    title: "Moisture Audit",
-    description: "Detailed inspections of foundation lines, mulch beds, and crawl spaces to locate and mitigate the moisture earwigs crave."
+    title: "Flood Cleanup",
+    description: "Detailed cleanup of flood-affected areas, including debris removal and sanitization to prevent secondary damage in Josephine."
   },
   {
     icon: ShieldCheck,
-    title: "Barrier Treatment",
-    description: "Creating a long-lasting chemical and physical perimeter around your home to intercept earwigs before they enter your interior."
+    title: "Structural Drying",
+    description: "Creating a long-lasting dry environment using high-velocity air movers and dehumidifiers to protect your home's structure."
   },
   {
     icon: Activity,
-    title: "Interior Defense",
-    description: "Safe, rapid-response earwig removal and preventative treatments for basements, bathrooms, and laundry rooms in Fulton."
+    title: "Mold Remediation",
+    description: "Safe, rapid-response mold removal and preventative treatments for basements, bathrooms, and crawl spaces in Josephine."
   }
 ];
 
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">Earwig control Fulton MD</span>
+            Expert <span className="text-indigo-600">water damage restoration josephine tx</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive pest management solutions designed for Fulton's unique residential landscape. We protect your home's foundation and interior from moisture-seeking pests.
+            Comprehensive restoration solutions designed for Josephine's unique residential landscape. We protect your home's structural integrity from emergency water damage.
           </p>
         </div>
 

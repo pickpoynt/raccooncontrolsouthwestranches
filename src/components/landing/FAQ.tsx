@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How do I know if earwigs are invading my home?",
-    answer: "Common signs include finding clusters of earwigs in damp areas like basements, bathrooms, or under kitchen sinks. You may also notice small, jagged holes in young garden plants or seedlings overnight."
+    question: "How quickly can you respond to water damage in Josephine?",
+    answer: "We offer 24/7 emergency response in Josephine. Our technicians typically arrive on-site within 60-90 minutes of your call to begin extraction and prevent further damage."
   },
   {
-    question: "Do earwigs bite or cause structural damage?",
-    answer: "Earwigs do not bite humans, though they can use their pincers if handled. They don't cause structural damage like termites, but they are a major nuisance and can damage gardens and indoor plant life."
+    question: "Is water damage restoration covered by my insurance?",
+    answer: "Most homeowners' insurance policies cover water damage from internal sources like burst pipes. We work directly with your insurance provider to handle the claims process and documentation."
   },
   {
-    question: "How do you provide earwig control in Fulton MD?",
-    answer: "We use a combination of perimeter barrier treatments, foundation sealing, and moisture management. By addressing the damp conditions that attract earwigs, we create an environment that's naturally repellent to them."
+    question: "How do you provide water damage restoration josephine tx?",
+    answer: "We use a combination of industrial-grade extraction, high-velocity drying equipment, and advanced moisture monitoring. By addressing the water immediately, we prevent structural rot and mold growth."
   },
   {
-    question: "Why are earwigs so common in Howard County?",
-    answer: "Howard County's humid climate and lush landscapes provide the perfect damp environments earwigs love. They thrive in mulch, leaf litter, and wood piles before seeking the moisture of your home's foundation."
+    question: "What are the first steps I should take if my home floods?",
+    answer: "If safe, shut off the main water valve and electricity to the affected area. Avoid standing in water if electricity is still on. Call our emergency line immediately for professional extraction."
   },
   {
-    question: "How long does the treatment process take?",
-    answer: "Most assessments and initial barrier treatments are completed within 24 hours. The full moisture mitigation and foundation sealing process usually takes 2 to 4 days, depending on the property size."
+    question: "How long does the structural drying process typically take?",
+    answer: "Most properties take between 3 to 5 days to reach professional dry standards. We monitor moisture levels throughout the process to ensure every structural element is completely recovered."
   }
 ];
 
@@ -32,10 +32,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Earwig control <span className="text-indigo-600">in Fulton MD FAQ</span>
+            Restoration <span className="text-indigo-600">in Josephine TX FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about earwig behavior, moisture risks, and our professional barrier process in Howard County.
+            Common questions about water damage recovery, insurance claims, and our professional restoration process in Josephine.
           </p>
         </div>
 

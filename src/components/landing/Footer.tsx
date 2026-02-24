@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Fulton Earwig</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Pros Fulton</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Josephine Water</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Damage Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Fulton's specialized team for rapid earwig mitigation and moisture defense. We provide elite-grade barrier treatments and foundation protection to restore your property's safety.
+              Josephine's specialized team for rapid water damage mitigation and structural drying. We provide elite-grade restoration and property protection to restore your property's safety.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,14 +31,14 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Restoration Services</h4>
             <ul className="space-y-4">
               {[
-                "Barrier Treatment",
-                "Foundation Sealing",
-                "Moisture Audit",
-                "Interior Defense",
-                "Crawl Space Solution",
+                "Water Extraction",
+                "Flood Cleanup",
+                "Structural Drying",
+                "Mold Remediation",
+                "Sewage Cleanup",
                 "Basement Drying"
               ].map((item) => (
                 <li key={item}>
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Howard County NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Josephine NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -60,8 +60,8 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">7600 Old Columbia Rd</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Fulton, MD 20759</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">Main St</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Josephine, TX 75164</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -70,7 +70,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Emergency</p>
-                  <a href="tel:3238801224" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(323) 880-1224</a>
+                  <a href="tel:3802660944" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">(380) 266-0944</a>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -79,30 +79,30 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:SUPPORT@EARWIGCONTROLFULTONMD.COM" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@EARWIGCONTROLFULTONMD.COM</a>
+                  <a href="mailto:domain@support.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">domain@support.com</a>
                 </div>
               </li>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Standards</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Restoration Standards</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We operate under strict pest mitigation protocols to ensure professional results while maintaining the ecological balance of Howard County and Fulton.
+              We operate under strict IICRC restoration protocols to ensure professional results while protecting the structural integrity of Josephine homes.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Moisture Assessment Available in Fulton MD.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Same-Day Water Damage Assessment Available in Josephine TX.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Fulton Earwig Control Pros. All rights reserved. Professional Pest Management & Earwig Control.
+            © {new Date().getFullYear()} Josephine Water Damage Pros. All rights reserved. Professional Restoration & Recovery.
           </p>
           <div className="flex gap-8 items-center">
-            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30">Lease my number ($19/mo)</a>
+            <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">Lease my number ($19/mo)</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
