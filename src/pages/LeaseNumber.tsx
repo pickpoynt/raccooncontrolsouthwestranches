@@ -7,7 +7,7 @@ const LeaseNumber = () => {
     return (
         <div className="min-h-screen bg-slate-50">
             <Helmet>
-                <title>Lease This Phone Number - Brooksville Chipmunk Removal Pros</title>
+                <title>Lease This Phone Number - Brooksville Vole Removal Pros</title>
                 <meta name="description" content="Replace this wildlife control phone number with your own business line for only $19 a month. Contact leasemynumber@gmail.com to get started." />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
@@ -46,7 +46,7 @@ const LeaseNumber = () => {
                             <ul className="space-y-5">
                                 {[
                                     "Your business phone number displayed site-wide",
-                                    "All inbound chipmunk inquiries routed to you",
+                                    "All inbound vole inquiries routed to you",
                                     "Full local SEO benefit of an optimized landing page",
                                     "Exclusive placement — only one business at a time",
                                     "Month-to-month, no long-term contract",
@@ -79,7 +79,7 @@ const LeaseNumber = () => {
 
                             <div className="space-y-4">
                                 <a
-                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Brooksville Chipmunk - $19/month"
+                                    href="mailto:leasemynumber@gmail.com?subject=Phone Lease Inquiry - Brooksville Vole - $19/month"
                                     className="w-full inline-flex items-center justify-center gap-3 bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-2xl font-bold uppercase tracking-widest text-sm transition-all hover:gap-4 shadow-lg shadow-indigo-900/20"
                                 >
                                     <Mail className="w-5 h-5" />
@@ -91,6 +91,7 @@ const LeaseNumber = () => {
                             </div>
                         </div>
                     </div>
+
 
 
 

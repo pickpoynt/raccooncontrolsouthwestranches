@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How long does chipmunk removal take in Brooksville?",
-    answer: "Most chipmunk removal projects take between 3 to 7 days. This includes the initial setup of live traps and the relocation of the active colony."
+    question: "How long does vole removal take in Brooksville?",
+    answer: "Most vole removal projects see a significant reduction in activity within 3 to 5 days. Complete elimination and burrow collapse typically take about a week."
   },
   {
-    question: "Is chipmunk exclusion permanent?",
-    answer: "Yes, our exclusion methods use professional-grade wildlife mesh and specialized sealants that prevent re-entry, providing long-term structural protection for your property."
+    question: "Is vole exclusion permanent?",
+    answer: "Yes, we use hardware cloth and underground barriers that prevent voles from re-entering your gardens and turf areas, providing long-term structural soil protection."
   },
   {
-    question: "Are your removal methods humane?",
-    answer: "Absolutely. We specialize in live-trapping and relocation, ensuring that chipmunks are moved safely to a natural habitat away from residential areas."
+    question: "Do you use poisons for vole control?",
+    answer: "We prioritize safety and use targeted, subsurface methods that minimize risk to pets and non-target wildlife in Brooksville's delicate ecosystem."
   },
   {
-    question: "Do chipmunks cause damage to pool decks?",
-    answer: "Yes, chipmunks are frequent tunnelers. Their burrows under pool decks and foundations in Brooksville can lead to soil erosion and eventually structural settling or cracking."
+    question: "Can voles damage my home's foundation?",
+    answer: "Voles primarily damage roots and sod, but their extensive tunneling can occasionally lead to soil settling or moisture issues near foundations if left unchecked."
   },
   {
-    question: "How can I prevent chipmunks from returning?",
-    answer: "Relocating existing populations is only half the battle. We recommend sealing all entry points and modifying the habitat by reducing seed sources and closing old tunnel systems."
+    question: "How do I know if I have voles or moles?",
+    answer: "Voles create surface runways (like little paths) and eat plants. Moles create mounds of dirt and eat insects. Our Brooksville experts can provide a definitive identification."
   }
 ];
 
@@ -32,10 +32,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Chipmunk Removal <span className="text-indigo-600">in Brooksville FAQ</span>
+            Vole Removal <span className="text-indigo-600">in Brooksville FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about chipmunk elimination, wildlife exclusion techniques, and property protection in Brooksville.
+            Common questions about vole elimination, lawn exclusion techniques, and landscape protection in Brooksville.
           </p>
         </div>
 

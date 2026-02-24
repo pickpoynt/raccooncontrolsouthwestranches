@@ -3,23 +3,33 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Humane Trapping",
-    description: "Our chipmunk removal brooksville fl experts use specialized, humane live-trapping systems to safely relocate chipmunks away from your property."
+    title: "Vole Trapping",
+    description: "Our vole removal brooksville fl specialists use precision trapping along active runways to quickly eliminate vole colonies."
   },
   {
     icon: Search,
-    title: "Wildlife Exclusion",
-    description: "Advanced exclusion techniques designed to seal entry points and prevent chipmunks and squirrels from entering your Brooksville home or attic."
-  },
-  {
-    icon: ShieldCheck,
-    title: "Property Protection",
-    description: "Strategic solutions for protecting your landscaping, pool decks, and foundations from the destructive burrowing habits of chipmunks."
+    title: "Tunnel Exclusion",
+    description: "Advanced underground barriers that are safe for your lawn while providing long-term protection against returning voles in Brooksville."
   },
   {
     icon: Activity,
-    title: "Habitat Modification",
-    description: "Expert advice and practical changes to your property's exterior that make it less attractive to wildlife, ensuring long-term results."
+    title: "Damage Remediation",
+    description: "We help collapse and seal old vole tunnel systems to prevent soil erosion and discourage new rodent infestations."
+  },
+  {
+    icon: Zap,
+    title: "Emergency Removal",
+    description: "Rapid response for active vole damage in Brooksville. We deploy fast-acting, professional-grade control protocols immediately."
+  },
+  {
+    icon: Sprout,
+    title: "Landscape Protection",
+    description: "Targeted protection for your gardens, sod, and shrubbery root systems using professional-grade wildlife management techniques."
+  },
+  {
+    icon: ShieldCheck,
+    title: "Property Shield",
+    description: "Seasonal inspections and proactive monitoring to ensure your Brooksville property remains free of vole activity year-round."
   }
 ];
 

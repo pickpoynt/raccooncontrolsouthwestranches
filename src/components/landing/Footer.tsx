@@ -14,12 +14,12 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Brooksville Chipmunk</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Brooksville Vole</span>
                 <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Removal Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Brooksville's specialized team for professional chipmunk removal and permanent exclusion. We provide elite-grade trapping and protection to reclaim your property's safety.
+              Brooksville's specialized team for professional vole removal and landscape protection. We provide elite-grade subsurface control to reclaim your property's soil.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
@@ -31,15 +31,15 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Vole Services</h4>
             <ul className="space-y-4">
               {[
-                "Chipmunk Removal",
-                "Squirrel Control",
-                "Wildlife Exclusion",
-                "Property Protection",
-                "Humane Trapping",
-                "Emergency Relocation"
+                "Vole Trapping",
+                "Underground Exclusion",
+                "Tunnel Remediation",
+                "Landscape Protection",
+                "Soil Stabilization",
+                "Emergency Vole Control"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -88,18 +88,18 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the unique wildlife control requirements of Brooksville FL homes, using humane methods and professional-grade exclusion materials.
+              We specialize in the unique vole control requirements of Brooksville FL homes, using precision methods and professional-grade exclusion materials.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Wildlife Assessments Available Across Brooksville.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Vole Assessments Available Across Brooksville.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Brooksville Chipmunk Removal Pros. All rights reserved. Professional Wildlife Control & safety.
+            © {new Date().getFullYear()} Brooksville Vole Removal Pros. All rights reserved. Professional Wildlife Control & safety.
           </p>
           <div className="flex gap-8 items-center">
             <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">Lease my number ($19/mo)</a>

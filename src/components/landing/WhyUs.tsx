@@ -32,7 +32,7 @@ const WhyUs = () => {
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
               src="/2.jpeg"
-              alt="Professional Chipmunk Removal Specialist in Brooksville Florida"
+              alt="Professional Vole Control in Brooksville"
               className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
             />
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
@@ -42,30 +42,45 @@ const WhyUs = () => {
           </div>
 
           <div>
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
-              <ShieldCheck className="w-4 h-4" />
-              Brooksville Wildlife Excellence
-            </div>
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
-              Why Brooksville Trusts Our Chipmunk Removal Pros
+            <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight">
+              Premium <span className="text-indigo-600 border-b-4 border-indigo-600/20">Vole Removal</span> <br />
+              Experts in Brooksville
             </h2>
-            <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
-              We specialize in the intersection of Brooksville's local environment and advanced wildlife exclusion technology. Our methods are precise, humane, and designed for long-term protection.
-            </p>
-
-
-            <div className="grid sm:grid-cols-2 gap-8">
-              {features.map((feature, index) => (
-                <div key={index} className="flex gap-4">
-                  <div className="w-12 h-12 rounded-xl bg-white shadow-lg flex items-center justify-center shrink-0 border border-slate-100">
-                    <feature.icon className="w-6 h-6 text-indigo-600" />
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              <div className="order-2 md:order-1 relative">
+                <div className="absolute -inset-4 bg-indigo-600/10 rounded-[3rem] blur-3xl" />
+                <img
+                  src="/2.jpeg"
+                  alt="Professional Vole Control in Brooksville"
+                  className="rounded-[3rem] shadow-2xl relative z-10 border border-slate-100"
+                />
+              </div>
+              <div className="order-1 md:order-2 space-y-8">
+                {[
+                  {
+                    title: "Landscape Preservation",
+                    desc: "Our methods stop underground tunneling immediately, saving your sod, flower beds, and expensive root systems from destruction."
+                  },
+                  {
+                    title: "Localized Brooksville Expertise",
+                    desc: "We understand the specific behavior of Florida voles and how they interact with Hernando County's unique soil and plant life."
+                  },
+                  {
+                    title: "Precision Underground Control",
+                    desc: "Using advanced subsurface control methods, we eliminate the source of the infestation without damaging your lawn's aesthetics."
+                  }
+                ].map((item, i) => (
+                  <div key={i} className="flex gap-6 group">
+                    <div className="w-14 h-14 rounded-2xl bg-indigo-600 flex items-center justify-center shrink-0 shadow-lg shadow-indigo-900/20 group-hover:rotate-6 transition-transform">
+                      <ShieldCheck className="w-7 h-7 text-white" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-slate-900 mb-2 uppercase tracking-tight">{item.title}</h4>
+                      <p className="text-slate-600 leading-relaxed font-medium">{item.desc}</p>
+                    </div>
                   </div>
-                  <div>
-                    <h4 className="font-bold text-slate-900 mb-2 uppercase tracking-tight text-sm">{feature.title}</h4>
-                    <p className="text-slate-600 text-xs leading-relaxed">{feature.description}</p>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
 
             <div className="mt-12 pt-12 border-t border-slate-200">
