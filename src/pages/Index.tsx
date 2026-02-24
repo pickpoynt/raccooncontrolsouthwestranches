@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import WapakonetaRodentInfo from "@/components/landing/WapakonetaRodentInfo";
+import BrooksvilleChipmunkInfo from "@/components/landing/BrooksvilleChipmunkInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>rodent control in Wapakoneta Ohio - Wapakoneta Rodent Control Pros</title>
-        <meta name="description" content="Looking for rodent control in Wapakoneta Ohio? Professional mice and rat extermination, exclusion services, and preventative pest control. Call 3238801224 today!" />
-        <meta name="keywords" content="rodent control in Wapakoneta Ohio, Wapakoneta mice exterminator, rat control Wapakoneta OH, rodent exclusion Wapakoneta, pest control Wapakoneta" />
-        <link rel="canonical" href="https://rodentcontrolinwapakonetaohio.vercel.app/" />
+        <title>chipmunk removal brooksville fl - Brooksville Chipmunk Removal Pros</title>
+        <meta name="description" content="Looking for chipmunk removal brooksville fl? Professional wildlife control, humane trapping, and exclusion services for Brooksville properties. Call 3238801224 today!" />
+        <meta name="keywords" content="chipmunk removal brooksville fl, Brooksville wildlife control, humane chipmunk trapping Brooksville, squirrel control Brooksville FL, pest control Brooksville" />
+        <link rel="canonical" href="https://chipmunkremovalbrooksvillefl.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Wapakoneta Rodent Control Pros",
+            "name": "Brooksville Chipmunk Removal Pros",
             "image": "/1.jpeg",
-            "@id": "https://rodentcontrolinwapakonetaohio.vercel.app/",
-            "url": "https://rodentcontrolinwapakonetaohio.vercel.app/",
+            "@id": "https://chipmunkremovalbrooksvillefl.vercel.app/",
+            "url": "https://chipmunkremovalbrooksvillefl.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "Main St",
-              "addressLocality": "Wapakoneta",
-              "addressRegion": "OH",
-              "postalCode": "45895",
+              "addressLocality": "Brooksville",
+              "addressRegion": "FL",
+              "postalCode": "34601",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "40.5678",
-              "longitude": "-84.1936"
+              "latitude": "28.5553",
+              "longitude": "-82.3879"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,32 +54,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Rodent Control & Exclusion Services",
+            "serviceType": "Wildlife Control & Chipmunk Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Wapakoneta Rodent Control Pros"
+              "name": "Brooksville Chipmunk Removal Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Wapakoneta, OH"
+              "name": "Brooksville, FL"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Rodent Control Services",
+              "name": "Chipmunk Removal Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Mice Extermination" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rat Prevention" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Rodent Exclusion" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sanitization Services" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Humane Trapping" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Exclusion" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Property Protection" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Sanitization" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="rodent control in Wapakoneta Ohio - Wapakoneta Rodent Control Pros" />
-        <meta property="og:description" content="Expert rodent control services in Wapakoneta, OH. Mice and rat extermination and eco-friendly solutions to protect your home." />
+        <meta property="og:title" content="chipmunk removal brooksville fl - Brooksville Chipmunk Removal Pros" />
+        <meta property="og:description" content="Expert chipmunk removal services in Brooksville, FL. Humane trapping and long-term exclusion solutions to protect your home." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rodentcontrolinwapakonetaohio.vercel.app/" />
+        <meta property="og:url" content="https://chipmunkremovalbrooksvillefl.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -88,19 +88,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Rodent <br />
-              <span className="text-white drop-shadow-sm uppercase">Control in Wapakoneta Ohio</span>
+              Chipmunk <br />
+              <span className="text-white drop-shadow-sm uppercase">Removal in Brooksville FL</span>
             </>
           }
-          subtitle="Wapakoneta's leading specialists in professional rodent control in Wapakoneta Ohio. We provide advanced exclusion techniques, effective trapping solutions, and comprehensive sanitization to keep your home pest-free. Dedicated to Wapakoneta's safety and comfort. Available 24/7."
+          subtitle="Brooksville's premier specialists in professional chipmunk removal brooksville fl. We provide humane trapping, advanced exclusion techniques, and comprehensive property protection to keep your landscape wildlife-free. Dedicated to Brooksville's safety and peace of mind. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="WAPAKONETA RODENT CONTROL PROS"
+          badge="BROOKSVILLE CHIPMUNK REMOVAL PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <WapakonetaRodentInfo />
+        <BrooksvilleChipmunkInfo />
         <Contact />
         <FAQ />
 
@@ -108,10 +108,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Local Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
+              <a href="https://earwigexterminatordenver.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Earwig Exterminator Denver</a>
               <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Pest Control South Point Ohio</a>
               <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Rodent Control Corvallis Oregon</a>
               <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Leaking Pipe Repair Modesto</a>
-              <a href="https://bedbugexterminatorinwapakonetaohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Bed Bug Exterminator Wapakoneta</a>
             </div>
           </div>
         </section>
@@ -125,6 +125,7 @@ const Index = () => {
 };
 
 export default Index;
+
 
 
 

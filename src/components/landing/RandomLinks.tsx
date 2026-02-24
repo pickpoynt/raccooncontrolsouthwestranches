@@ -1,14 +1,15 @@
 const links = [
   { text: "Earwig Exterminator Denver", url: "https://earwigexterminatordenver.vercel.app/" },
   { text: "Centipede Repellent Hawaii", url: "https://centipederepellenthawaii.vercel.app/" },
-  { text: "Pest Control South Point", url: "https://pestcontrolsouthpointohio.vercel.app/" },
-  { text: "Rodent Control Corvallis", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
-  { text: "Spider Control La Grange", url: "https://brownreclusespidercontrollagrange.vercel.app/" },
+  { text: "Pest Control South Point Ohio", url: "https://pestcontrolsouthpointohio.vercel.app/" },
+  { text: "Rodent Control Corvallis Oregon", url: "https://rodentcontrolcorvallisoregon.vercel.app/" },
+  { text: "Brown Recluse Spider Control LaGrange", url: "https://brownreclusespidercontrollagrange.vercel.app/" },
   { text: "Termite Inspection Burbank", url: "https://termiteinspectionburbank.vercel.app/" },
-  { text: "Coyote Control McCook", url: "https://coyotecontrolmccookne.vercel.app/" },
-  { text: "Gopher Control Frankenmuth", url: "https://gophercontrolfrankenmuthmi.vercel.app/" },
-  { text: "Earwig Control Fulton", url: "https://earwigcontrolfultonmd.vercel.app/" },
-  { text: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" }
+  { text: "Coyote Control McCook NE", url: "https://coyotecontrolmccookne.vercel.app/" },
+  { text: "Gopher Control Frankenmuth MI", url: "https://gophercontrolfrankenmuthmi.vercel.app/" },
+  { text: "Earwig Control Fulton MD", url: "https://earwigcontrolfultonmd.vercel.app/" },
+  { text: "Leaking Pipe Repair Modesto", url: "https://leakingpiperepairinmodesto.vercel.app/" },
+  { text: "Bed Bug Exterminator Wapakoneta Ohio", url: "https://bedbugexterminatorinwapakonetaohio.vercel.app/" }
 ];
 
 const RandomLinks = () => {

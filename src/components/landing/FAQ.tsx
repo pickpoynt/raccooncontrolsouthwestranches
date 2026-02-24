@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How long does a rodent control service take in Wapakoneta?",
-    answer: "An initial inspection and trapping setup typically takes 1.5 to 3 hours. We then perform follow-up visits every few days to monitor progress and ensure the population is eliminated."
+    question: "How long does chipmunk removal take in Brooksville?",
+    answer: "Most chipmunk removal projects take between 3 to 7 days. This includes the initial setup of live traps and the relocation of the active colony."
   },
   {
-    question: "Is rodent exclusion permanent?",
-    answer: "Yes, our exclusion methods use professional-grade steel mesh, copper wool, and specialized sealants that rodents cannot chew through, providing a permanent physical barrier for your home."
+    question: "Is chipmunk exclusion permanent?",
+    answer: "Yes, our exclusion methods use professional-grade wildlife mesh and specialized sealants that prevent re-entry, providing long-term structural protection for your property."
   },
   {
-    question: "Are your rodent baits safe for my pets?",
-    answer: "We use Tier 1 bait stations that are tamper-resistant and designed to keep children and pets out. Our technicians strategically place these in areas inaccessible to domestic animals."
+    question: "Are your removal methods humane?",
+    answer: "Absolutely. We specialize in live-trapping and relocation, ensuring that chipmunks are moved safely to a natural habitat away from residential areas."
   },
   {
-    question: "Do I need to leave my home during treatment?",
-    answer: "In most cases, no. Our rodent control methods are localized and don't involve broad chemical spraying, so you can remain in your home during the entire process."
+    question: "Do chipmunks cause damage to pool decks?",
+    answer: "Yes, chipmunks are frequent tunnelers. Their burrows under pool decks and foundations in Brooksville can lead to soil erosion and eventually structural settling or cracking."
   },
   {
-    question: "How can I tell the difference between mice and rats?",
-    answer: "Mice are smaller with larger ears and long thin tails. Rats are significantly larger (up to 10 inches), have thicker tails, and leave larger, pill-shaped droppings."
+    question: "How can I prevent chipmunks from returning?",
+    answer: "Relocating existing populations is only half the battle. We recommend sealing all entry points and modifying the habitat by reducing seed sources and closing old tunnel systems."
   }
 ];
 
@@ -32,10 +32,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Rodent Control <span className="text-indigo-600">in Wapakoneta FAQ</span>
+            Chipmunk Removal <span className="text-indigo-600">in Brooksville FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about rodent elimination, exclusion techniques, and pest prevention in Wapakoneta.
+            Common questions about chipmunk elimination, wildlife exclusion techniques, and property protection in Brooksville.
           </p>
         </div>
 

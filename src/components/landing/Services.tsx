@@ -3,23 +3,23 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Mice Extermination",
-    description: "Our rodent control in Wapakoneta Ohio experts use specialized trapping systems to eliminate mice populations without toxic residue."
+    title: "Humane Trapping",
+    description: "Our chipmunk removal brooksville fl experts use specialized, humane live-trapping systems to safely relocate chipmunks away from your property."
   },
   {
     icon: Search,
-    title: "Rat Protection",
-    description: "Advanced exclusion techniques that are safe for your family while providing long-term structural protection against returning rats in Wapakoneta."
+    title: "Wildlife Exclusion",
+    description: "Advanced exclusion techniques designed to seal entry points and prevent chipmunks and squirrels from entering your Brooksville home or attic."
   },
   {
     icon: ShieldCheck,
-    title: "Rodent Exclusion",
-    description: "Thorough visual inspections and sealing of entry points to confirm and prevent the presence of rodents throughout your Wapakoneta property."
+    title: "Property Protection",
+    description: "Strategic solutions for protecting your landscaping, pool decks, and foundations from the destructive burrowing habits of chipmunks."
   },
   {
     icon: Activity,
-    title: "Sanitization Services",
-    description: "Cleaning and decontaminating affected areas to remove nests, droppings, and potential bacteria after successful rodent removal."
+    title: "Habitat Modification",
+    description: "Expert advice and practical changes to your property's exterior that make it less attractive to wildlife, ensuring long-term results."
   }
 ];
 
@@ -29,10 +29,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">rodent control in Wapakoneta Ohio</span>
+            Expert <span className="text-indigo-600">chipmunk removal brooksville fl</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive rodent solutions designed for Wapakoneta's unique properties. We reclaim your home's hygiene and safety.
+            Comprehensive wildlife solutions designed for Brooksville's unique properties. We reclaim your home's integrity and safety.
           </p>
         </div>
 

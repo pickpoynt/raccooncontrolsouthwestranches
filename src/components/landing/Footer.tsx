@@ -14,32 +14,32 @@ const Footer = () => {
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
               <div>
-                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Wapakoneta Rodent</span>
-                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Control Pros</span>
+                <span className="font-heading font-bold text-xl block leading-none tracking-tight text-white uppercase text-[15px]">Brooksville Chipmunk</span>
+                <span className="text-sm font-medium text-indigo-500 uppercase tracking-widest text-[10px]">Removal Pros</span>
               </div>
             </div>
             <p className="text-slate-400 mb-8 leading-relaxed font-medium italic text-sm">
-              Wapakoneta's specialized team for professional rodent control and permanent exclusion. We provide elite-grade trapping and protection to reclaim your home's hygiene.
+              Brooksville's specialized team for professional chipmunk removal and permanent exclusion. We provide elite-grade trapping and protection to reclaim your property's safety.
             </p>
             <div className="flex gap-4">
               {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
                 <a key={i} href="#" className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-indigo-600 hover:border-indigo-600 transition-all duration-300">
-                  <Icon className="w-5 h-5 text-slate-400 group-hover:text-white" />
+                  <Icon className="w-5 h-5 text-slate-400" />
                 </a>
               ))}
             </div>
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Pest Services</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wildlife Services</h4>
             <ul className="space-y-4">
               {[
-                "Mice Extermination",
-                "Rat Protection",
-                "Gopher Control",
-                "Rodent Exclusion",
-                "Eco-Friendly Pellets",
-                "Emergency Baiting"
+                "Chipmunk Removal",
+                "Squirrel Control",
+                "Wildlife Exclusion",
+                "Property Protection",
+                "Humane Trapping",
+                "Emergency Relocation"
               ].map((item) => (
                 <li key={item}>
                   <a href="#services" className="text-slate-400 hover:text-white transition-colors flex items-center gap-2 group">
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Wapakoneta NAP</h4>
+            <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Brooksville NAP</h4>
             <ul className="space-y-6">
               <li className="flex gap-4">
                 <div className="w-10 h-10 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center shrink-0">
@@ -61,7 +61,7 @@ const Footer = () => {
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">HQ</p>
                   <p className="text-sm font-bold text-slate-300 uppercase tracking-tight leading-tight">Main St</p>
-                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Wapakoneta, OH 45895</p>
+                  <p className="text-sm font-bold text-slate-300 uppercase tracking-tight">Brooksville, FL 34601</p>
                 </div>
               </li>
               <li className="flex gap-4">
@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:SUPPORT@RODENTCONTROLWAPAKONETAOHIO.COM" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">SUPPORT@RODENTCONTROLWAPAKONETAOHIO.COM</a>
+                  <a href="mailto:leasemynumber@gmail.com" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">leasemynumber@gmail.com</a>
                 </div>
               </li>
             </ul>
@@ -88,24 +88,25 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-bold mb-8 uppercase tracking-widest text-indigo-400">Standard Excellence</h4>
             <p className="text-slate-400 text-sm leading-relaxed mb-6 italic font-medium">
-              We specialize in the unique rodent control requirements of Wapakoneta OH homes, using high-performance exclusion materials and safe trapping protocols.
+              We specialize in the unique wildlife control requirements of Brooksville FL homes, using humane methods and professional-grade exclusion materials.
             </p>
             <div className="p-6 bg-white/5 rounded-2xl border border-white/10">
               <p className="text-[10px] font-bold text-indigo-400 uppercase tracking-[0.2em] mb-2">Service Promise</p>
-              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Rodent Assessments Available Across Wapakoneta.</p>
+              <p className="text-sm font-bold text-slate-300 uppercase leading-tight italic">Expert Wildlife Assessments Available Across Brooksville.</p>
             </div>
           </div>
         </div>
 
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6 uppercase tracking-widest text-[10px] font-bold">
           <p className="text-slate-500 text-center md:text-left">
-            © {new Date().getFullYear()} Wapakoneta Rodent Control Pros. All rights reserved. Professional Pest Control & Safety.
+            © {new Date().getFullYear()} Brooksville Chipmunk Removal Pros. All rights reserved. Professional Wildlife Control & safety.
           </p>
           <div className="flex gap-8 items-center">
             <a href="/lease" className="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded-lg transition-colors border border-indigo-400/30 text-nowrap">Lease my number ($19/mo)</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Privacy Policy</a>
             <a href="#" className="text-slate-500 hover:text-indigo-400 transition-colors">Terms of Service</a>
           </div>
+
 
 
 

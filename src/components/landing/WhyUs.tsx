@@ -3,23 +3,23 @@ import { ShieldCheck, Clock, Award, Hammer } from "lucide-react";
 const features = [
   {
     icon: Clock,
-    title: "Rapid Emergency Response",
-    description: "Rodent discoveries can't wait. Our Wapakoneta team provides fast assessment and exclusion to ensure your home remains safe and pest-free 24/7."
+    title: "Rapid Habitat Assessment",
+    description: "Wildlife intrusions require quick action. Our Brooksville team provides fast assessments and exclusion paths to secure your property 24/7."
   },
   {
     icon: Hammer,
     title: "Exclusion Mastery",
-    description: "We are rodent specialists. Our licensed techs use premium shielding materials and precision methods to ensure rodents stay out permanently."
+    description: "We are wildlife experts. Our technicians use premium shielding materials and precision methods to ensure chipmunks stay out permanently."
   },
   {
     icon: Award,
-    title: "Wapakoneta Certified",
-    description: "Fully licensed and insured specifically for residential pest control in Ohio. We follow strict safety protocols for all rodent removal services."
+    title: "Brooksville Certified",
+    description: "Fully licensed and insured specifically for residential wildlife control in Florida. We follow strict safety protocols for all removal services."
   },
   {
     icon: ShieldCheck,
-    title: "Hygiene First Guarantee",
-    description: "Our focus is on your family's health. We use eco-friendly treatments and decontaminate affected areas to prevent bacteria spread."
+    title: "Humane Removal Promise",
+    description: "Our focus is on humane practices. We use live-trapping and relocation methods to safely manage Brooksville's local wildlife populations."
   }
 ];
 
@@ -31,26 +31,26 @@ const WhyUs = () => {
           <div className="relative">
             <div className="absolute -top-12 -left-12 w-64 h-64 bg-indigo-600/10 rounded-full blur-3xl" />
             <img
-              src="/3.jpeg"
-              alt="Professional Rodent Exterminator in Wapakoneta Ohio"
+              src="/2.jpeg"
+              alt="Professional Chipmunk Removal Specialist in Brooksville Florida"
               className="rounded-[3rem] shadow-2xl relative z-10 border border-white"
             />
             <div className="absolute -bottom-8 -right-8 bg-white p-8 rounded-3xl shadow-xl z-20 border border-slate-100 max-w-[240px]">
               <p className="text-3xl font-bold text-indigo-600 mb-1">100%</p>
-              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Elimination Rate in Wapakoneta OH</p>
+              <p className="text-sm font-bold text-slate-900 uppercase tracking-tight leading-tight">Removal Rate in Brooksville FL</p>
             </div>
           </div>
 
           <div>
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-600 text-white mb-6 uppercase tracking-widest text-[10px] font-bold">
               <ShieldCheck className="w-4 h-4" />
-              Wapakoneta Rodent Excellence
+              Brooksville Wildlife Excellence
             </div>
             <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-8 uppercase tracking-tight leading-tight">
-              Why Wapakoneta Trusts Our Rodent Control Pros
+              Why Brooksville Trusts Our Chipmunk Removal Pros
             </h2>
             <p className="text-slate-600 text-lg mb-12 leading-relaxed italic font-medium">
-              We specialize in the intersection of Wapakoneta's local housing and advanced rodent exclusion technology. Our methods are precise, safe, and designed for long-term health.
+              We specialize in the intersection of Brooksville's local environment and advanced wildlife exclusion technology. Our methods are precise, humane, and designed for long-term protection.
             </p>
 
 
@@ -72,7 +72,7 @@ const WhyUs = () => {
               <div className="flex items-center gap-6">
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Ready to reclaim your home?</p>
-                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Wapakoneta's Best</h4>
+                  <h4 className="text-2xl font-bold text-slate-900 uppercase tracking-tight leading-none">Call Brooksville's Best</h4>
                 </div>
                 <a
                   href="tel:3238801224"
@@ -89,6 +89,7 @@ const WhyUs = () => {
     </section>
   );
 };
+
 
 
 
