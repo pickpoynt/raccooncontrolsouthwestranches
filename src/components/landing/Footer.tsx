@@ -79,7 +79,7 @@ const Footer = () => {
                 </div>
                 <div>
                   <p className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-1">Support</p>
-                  <a href="mailto:support@raccooncontrolsouthwestranches.vercel.app" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors lowercase tracking-tight">support@raccooncontrolsouthwestranches.vercel.app</a>
+                  <a href="/lease" className="text-sm font-bold text-slate-300 hover:text-indigo-400 transition-colors uppercase tracking-tight">Lease My Number</a>
                 </div>
               </li>
             </ul>
