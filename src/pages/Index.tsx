@@ -2,7 +2,7 @@ import Header from "@/components/landing/Header";
 import Hero from "@/components/landing/Hero";
 import Services from "@/components/landing/Services";
 import WhyUs from "@/components/landing/WhyUs";
-import BrooksvilleVoleInfo from "@/components/landing/BrooksvilleVoleInfo";
+import RaccoonControlInfo from "@/components/landing/RaccoonControlInfo";
 import Contact from "@/components/landing/Contact";
 import FAQ from "@/components/landing/FAQ";
 import Footer from "@/components/landing/Footer";
@@ -14,32 +14,32 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-slate-50">
       <Helmet>
-        <title>vole removal brooksville fl - Brooksville Vole Removal Pros</title>
-        <meta name="description" content="Looking for vole removal brooksville fl? Professional wildlife control, underground damage repair, and exclusion services for Brooksville properties. Call 3238801224 today!" />
-        <meta name="keywords" content="vole removal brooksville fl, Brooksville wildlife control, vole trapping Brooksville, mole control Brooksville FL, pest control Brooksville" />
-        <link rel="canonical" href="https://voleremovalbrooksvillefl.vercel.app/" />
+        <title>Raccoon control Southwest Ranches | Southwest Ranches Raccoon Pros</title>
+        <meta name="description" content="Looking for Raccoon control Southwest Ranches? Professional raccoon removal, damage repair, and humane exclusion services for Southwest Ranches properties. Call 3238801224 today!" />
+        <meta name="keywords" content="Raccoon control Southwest Ranches, Southwest Ranches wildlife removal, raccoon trapping Southwest Ranches, wildlife exclusion Southwest Ranches FL, pest control Southwest Ranches" />
+        <link rel="canonical" href="https://raccooncontrolsouthwestranches.vercel.app/" />
 
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "Brooksville Vole Removal Pros",
+            "name": "Southwest Ranches Raccoon Pros",
             "image": "/1.jpeg",
-            "@id": "https://voleremovalbrooksvillefl.vercel.app/",
-            "url": "https://voleremovalbrooksvillefl.vercel.app/",
+            "@id": "https://raccooncontrolsouthwestranches.vercel.app/",
+            "url": "https://raccooncontrolsouthwestranches.vercel.app/",
             "telephone": "+13238801224",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "Main St",
-              "addressLocality": "Brooksville",
+              "streetAddress": "N Flamingo Rd",
+              "addressLocality": "Southwest Ranches",
               "addressRegion": "FL",
-              "postalCode": "34601",
+              "postalCode": "33330",
               "addressCountry": "US"
             },
             "geo": {
               "@type": "GeoCoordinates",
-              "latitude": "28.5553",
-              "longitude": "-82.3879"
+              "latitude": "26.0465",
+              "longitude": "-80.3662"
             },
             "openingHoursSpecification": {
               "@type": "OpeningHoursSpecification",
@@ -54,32 +54,32 @@ const Index = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "Service",
-            "serviceType": "Wildlife Control & Vole Removal",
+            "serviceType": "Wildlife Control & Raccoon Removal",
             "provider": {
               "@type": "LocalBusiness",
-              "name": "Brooksville Vole Removal Pros"
+              "name": "Southwest Ranches Raccoon Pros"
             },
             "areaServed": {
               "@type": "City",
-              "name": "Brooksville, FL"
+              "name": "Southwest Ranches, FL"
             },
             "hasOfferCatalog": {
               "@type": "OfferCatalog",
-              "name": "Vole Removal Services",
+              "name": "Raccoon Removal Services",
               "itemListElement": [
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Vole Trapping" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Raccoon Trapping" } },
                 { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Wildlife Exclusion" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Landscape Protection" } },
-                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Tunnel Remediation" } }
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Attic Decontamination" } },
+                { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Damage Repair" } }
               ]
             }
           })}
         </script>
 
-        <meta property="og:title" content="vole removal brooksville fl - Brooksville Vole Removal Pros" />
-        <meta property="og:description" content="Expert vole removal services in Brooksville, FL. Protect your landscape from underground damage with professional trapping and exclusion." />
+        <meta property="og:title" content="Raccoon control Southwest Ranches | Southwest Ranches Raccoon Pros" />
+        <meta property="og:description" content="Expert raccoon removal services in Southwest Ranches, FL. Protect your home and family with professional trapping and humane exclusion." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://voleremovalbrooksvillefl.vercel.app/" />
+        <meta property="og:url" content="https://raccooncontrolsouthwestranches.vercel.app/" />
         <meta property="og:image" content="/1.jpeg" />
       </Helmet>
 
@@ -88,19 +88,19 @@ const Index = () => {
         <Hero
           title={
             <>
-              Vole <br />
-              <span className="text-white drop-shadow-sm uppercase">Removal in Brooksville FL</span>
+              Raccoon <br />
+              <span className="text-white drop-shadow-sm uppercase">Control in Southwest Ranches</span>
             </>
           }
-          subtitle="Brooksville's premier specialists in professional vole removal brooksville fl. We provide advanced trapping, underground exclusion techniques, and comprehensive property protection to keep your landscape rodent-free. Dedicated to Brooksville's safety and curb appeal. Available 24/7."
+          subtitle="Southwest Ranches' premier specialists in professional raccoon control. We provide advanced trapping, humane exclusion techniques, and comprehensive property protection to keep your home wildlife-free. Dedicated to Southwest Ranches' safety and peace of mind. Available 24/7."
           image="/1.jpeg"
           overlayImage="/2.jpeg"
-          badge="BROOKSVILLE VOLE REMOVAL PROS"
+          badge="SOUTHWEST RANCHES RACCOON PROS"
           phone="3238801224"
         />
         <Services />
         <WhyUs />
-        <BrooksvilleVoleInfo />
+        <RaccoonControlInfo />
         <Contact />
         <FAQ />
 
@@ -108,10 +108,10 @@ const Index = () => {
           <div className="container mx-auto px-4">
             <h2 className="text-2xl font-bold mb-6 text-slate-800 uppercase tracking-tight">Our Local Resource Network</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-8">
-              <a href="https://chipmunkremovalbrooksvillefl.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Chipmunk Removal Brooksville</a>
               <a href="https://earwigexterminatordenver.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Earwig Exterminator Denver</a>
+              <a href="https://centipederepellenthawaii.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Centipede Repellent Hawaii</a>
               <a href="https://pestcontrolsouthpointohio.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Pest Control South Point Ohio</a>
-              <a href="https://leakingpiperepairinmodesto.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Leaking Pipe Repair Modesto</a>
+              <a href="https://rodentcontrolcorvallisoregon.vercel.app/" className="text-indigo-600 hover:text-indigo-800 font-bold transition-colors">Rodent Control Corvallis Oregon</a>
             </div>
           </div>
         </section>
@@ -124,8 +124,8 @@ const Index = () => {
   );
 };
 
-
 export default Index;
+
 
 
 

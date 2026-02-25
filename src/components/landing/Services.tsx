@@ -3,33 +3,33 @@ import { ShieldCheck, Search, Activity, Sprout, Home, Zap } from "lucide-react";
 const servicesList = [
   {
     icon: Home,
-    title: "Vole Trapping",
-    description: "Our vole removal brooksville fl specialists use precision trapping along active runways to quickly eliminate vole colonies."
+    title: "Raccoon Trapping",
+    description: "Our Raccoon control Southwest Ranches specialists use humane, precision trapping to quickly remove nuisance raccoons from your property."
   },
   {
     icon: Search,
-    title: "Tunnel Exclusion",
-    description: "Advanced underground barriers that are safe for your lawn while providing long-term protection against returning voles in Brooksville."
+    title: "Humane Exclusion",
+    description: "Advanced one-way doors and entry point sealing that allow raccoons to leave but prevent them from returning to your Southwest Ranches home."
   },
   {
     icon: Activity,
-    title: "Damage Remediation",
-    description: "We help collapse and seal old vole tunnel systems to prevent soil erosion and discourage new rodent infestations."
+    title: "Attic Decontamination",
+    description: "We thoroughly clean and sanitize attics damaged by raccoons, removing waste and pheromones to ensure a safe, healthy environment."
   },
   {
     icon: Zap,
     title: "Emergency Removal",
-    description: "Rapid response for active vole damage in Brooksville. We deploy fast-acting, professional-grade control protocols immediately."
+    description: "Rapid response for active raccoon threats in Southwest Ranches. We deploy fast-acting, professional-grade control protocols immediately."
   },
   {
     icon: Sprout,
-    title: "Landscape Protection",
-    description: "Targeted protection for your gardens, sod, and shrubbery root systems using professional-grade wildlife management techniques."
+    title: "Damage Restoration",
+    description: "Targeted repair for roofing, soffits, and insulation damaged by raccoons using professional-grade materials and techniques."
   },
   {
     icon: ShieldCheck,
     title: "Property Shield",
-    description: "Seasonal inspections and proactive monitoring to ensure your Brooksville property remains free of vole activity year-round."
+    description: "Seasonal inspections and proactive monitoring to ensure your Southwest Ranches property remains free of wildlife activity year-round."
   }
 ];
 
@@ -39,10 +39,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Expert <span className="text-indigo-600">chipmunk removal brooksville fl</span>
+            Expert <span className="text-indigo-600">Raccoon control Southwest Ranches</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Comprehensive wildlife solutions designed for Brooksville's unique properties. We reclaim your home's integrity and safety.
+            Comprehensive wildlife solutions designed for Southwest Ranches' unique properties. We reclaim your home's integrity and safety.
           </p>
         </div>
 

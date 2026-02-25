@@ -12,16 +12,16 @@ interface HeroProps {
 }
 
 const Hero = ({
-  title = "Rodent Control in Wapakoneta Ohio",
-  subtitle = "Wapakoneta's specialized experts in professional rodent control in Wapakoneta Ohio and advanced exclusion techniques. Available 24/7.",
+  title = "Raccoon control Southwest Ranches",
+  subtitle = "Southwest Ranches' specialized experts in professional raccoon control and advanced exclusion techniques. Available 24/7.",
   image = "/1.jpeg",
   overlayImage = "/2.jpeg",
   phone = "3238801224",
-  badge = "WAPAKONETA RODENT CONTROL PROS",
+  badge = "SOUTHWEST RANCHES RACCOON PROS",
   features = [
     { icon: Search, text: "Detection Experts" },
-    { icon: ShieldCheck, text: "Rodent Exclusion" },
-    { icon: Hammer, text: "Complete Elimination" }
+    { icon: ShieldCheck, text: "Raccoon Exclusion" },
+    { icon: Hammer, text: "Structural Repair" }
   ]
 }: HeroProps) => {
   const formattedPhone = phone.replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");

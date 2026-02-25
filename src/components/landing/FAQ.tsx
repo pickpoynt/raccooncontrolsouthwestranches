@@ -3,24 +3,24 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "How long does vole removal take in Brooksville?",
-    answer: "Most vole removal projects see a significant reduction in activity within 3 to 5 days. Complete elimination and burrow collapse typically take about a week."
+    question: "How long does raccoon removal take in Southwest Ranches?",
+    answer: "Most raccoon removal projects are completed within 48 to 72 hours. Complete exclusion and entry point sealing typically happen immediately after the animal is safely removed."
   },
   {
-    question: "Is vole exclusion permanent?",
-    answer: "Yes, we use hardware cloth and underground barriers that prevent voles from re-entering your gardens and turf areas, providing long-term structural soil protection."
+    question: "Is raccoon exclusion permanent?",
+    answer: "Yes, we use heavy-gauge steel mesh and professional-grade industrial sealants that raccoons cannot chew or tear through, providing long-term structural protection."
   },
   {
-    question: "Do you use poisons for vole control?",
-    answer: "We prioritize safety and use targeted, subsurface methods that minimize risk to pets and non-target wildlife in Brooksville's delicate ecosystem."
+    question: "Do you use humane methods for raccoon control?",
+    answer: "We prioritize humane practices and follow all Florida wildlife regulations. We use live-trapping and relocation where appropriate, or one-way doors to allow animals to exit safely."
   },
   {
-    question: "Can voles damage my home's foundation?",
-    answer: "Voles primarily damage roots and sod, but their extensive tunneling can occasionally lead to soil settling or moisture issues near foundations if left unchecked."
+    question: "Can raccoons transmit diseases to my family?",
+    answer: "Raccoons can carry diseases like Rabies and Raccoon Roundworm. Our attic decontamination service removes hazardous waste and sanitizes the area to ensure your family's safety."
   },
   {
-    question: "How do I know if I have voles or moles?",
-    answer: "Voles create surface runways (like little paths) and eat plants. Moles create mounds of dirt and eat insects. Our Brooksville experts can provide a definitive identification."
+    question: "How do I know if the animal in my attic is a raccoon?",
+    answer: "Raccoons are heavy and make loud thumping sounds. You may also hear vocalizations like chattering or growling. Our Southwest Ranches experts provide definitive identification via inspection."
   }
 ];
 
@@ -32,10 +32,10 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-slate-900 mb-6 uppercase tracking-tight">
-            Vole Removal <span className="text-indigo-600">in Brooksville FAQ</span>
+            Raccoon Removal <span className="text-indigo-600">in Southwest Ranches FAQ</span>
           </h2>
           <p className="text-slate-600 text-lg leading-relaxed font-medium italic">
-            Common questions about vole elimination, lawn exclusion techniques, and landscape protection in Brooksville.
+            Common questions about raccoon elimination, home exclusion techniques, and wildlife protection in Southwest Ranches.
           </p>
         </div>
 
